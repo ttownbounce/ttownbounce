@@ -8,7 +8,7 @@
 
 .nav-container {
   display: flex;
-  justify-content: center; /* Center the child elements horizontally */
+  justify-content: space-between; /* Center the child elements horizontally */
   align-items: center; /* Center the child elements vertically */
   width: 100%;
   height: 80px;
