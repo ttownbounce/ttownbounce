@@ -1,4 +1,4 @@
-import "./page.css/HomePage.css";
+import "./pagecss/HomePage.css";
 import "../../App.css";
 import React from "react";
 import NRCarousel from "../carouselfolder/NRCarousel";
