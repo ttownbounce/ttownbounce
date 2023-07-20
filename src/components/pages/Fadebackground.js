@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./page.css/Fadebackground.css";
+import "./pagecss/Fadebackground.css";
 
 const Fadebackground = () => {
   const [scrollOpacity, setScrollOpacity] = useState(1);
