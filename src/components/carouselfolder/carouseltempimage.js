@@ -1,6 +1,6 @@
 import React from "react";
 
-function CarouselTempImage({ image }) {
+function Carouseltempimage({ image }) {
   return (
     <div>
       <img src={image} alt="Carousel pic" />
@@ -8,4 +8,4 @@ function CarouselTempImage({ image }) {
   );
 }
 
-export default CarouselTempImage;
+export default Carouseltempimage;
