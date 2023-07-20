@@ -1,4 +1,4 @@
-import "./Page.css/HomePage.css";
+import "./page.css/HomePage.css";
 import "../../App.css";
 import React from "react";
 import NRCarousel from "../carouselfolder/NRCarousel";
@@ -11,13 +11,15 @@ import tempCarousel3 from "../../imageicons/tempcarousel/image 3.png";
 function HomePage() {
   return (
     <div className="page">
-      <div className="headerTextContainer">
-        <h1 className="headerText bubbleWhite jumbotron jumbotron-fluid">
-          Welcome to Ttown Bounce TonyBranchMerge!
-        </h1>
-        <h1 className="headerText center bubbleWhite jumbotron jumbotron-fluid">
-          Where laughter and excitement collide
-        </h1>
+      <div className="center">
+        <div className="headerTextContainer">
+          <h1 className="headerText center">
+            Welcome to Ttown Bounce!
+          </h1>
+          <h1 className="headerText center">
+            Where laughter and excitement collide
+          </h1>
+        </div>
       </div>
       <div className="bodyContainer">
         <h1 className="bodyText bubbleWhite">New Arivals</h1>
