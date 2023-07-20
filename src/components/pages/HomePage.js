@@ -2,7 +2,7 @@ import "./Page.css/HomePage.css";
 import "../../App.css";
 import React from "react";
 import RotatingCarousel from "../carousel/carousel";
-import FadingBackground from "./fadingbackground";
+import Fadingbackground from "./Fadingbackground";
 
 import tempCarousel1 from "../../images/tempcarousel/image1.png";
 import tempCarousel2 from "../../images/tempcarousel/image2.png";
@@ -32,7 +32,7 @@ function HomePage() {
         <img src={tempCarousel2} alt="2" className="numberImages" />
         <img src={tempCarousel3} alt="3" className="numberImages" />
       </div>
-      <FadingBackground />
+      <Fadingbackground />
       <footer className="center">
         <button>Employee Portal</button>
       </footer>
