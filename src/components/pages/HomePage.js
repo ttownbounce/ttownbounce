@@ -1,4 +1,4 @@
-import "./Page.css/Home.css";
+import "./Page.css/HomePage.css";
 import "../../App.css";
 import React from "react";
 import RotatingCarousel from "../carousel/carousel";
@@ -8,7 +8,7 @@ import tempCarousel1 from "../../images/tempcarousel/image1.png";
 import tempCarousel2 from "../../images/tempcarousel/image2.png";
 import tempCarousel3 from "../../images/tempcarousel/image 3.png";
 
-function home() {
+function HomePage() {
   return (
     <div className="page">
       <div className="headerTextContainer">
@@ -40,4 +40,4 @@ function home() {
   );
 }
 
-export default home;
+export default HomePage;
