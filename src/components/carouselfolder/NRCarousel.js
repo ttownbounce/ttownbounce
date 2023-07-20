@@ -1,7 +1,9 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import "./NRCarousel.css";
-import Carouseltempimage from "../carouselfolder/Carouseltempimage";
+
+import TICarousel from "./TICarousel";
+
 import tempCarousel1 from "../../imageicons/tempcarousel/image1.png";
 import tempCarousel2 from "../../imageicons/tempcarousel/image2.png";
 import tempCarousel3 from "../../imageicons/tempcarousel/image 3.png";
@@ -14,7 +16,7 @@ function NRCarousel() {
         <Carousel>
           <Carousel.Item interval={2000}>
             <div className="Carousel-Image">
-              <Carouseltempimage image={tempCarousel1} />
+              <TICarousel image={tempCarousel1} />
             </div>
             <div className="Carousel-Caption">
               <h3>27ft Slide</h3>
@@ -23,7 +25,7 @@ function NRCarousel() {
           </Carousel.Item>
           <Carousel.Item interval={2000}>
             <div className="Carousel-Image">
-              <Carouseltempimage image={tempCarousel2} />
+              <TICarousel image={tempCarousel2} />
             </div>
             <div className="Carousel-Caption">
               <h3>Basketball</h3>
@@ -32,7 +34,7 @@ function NRCarousel() {
           </Carousel.Item>
           <Carousel.Item interval={2000}>
             <div className="Carousel-Image">
-              <Carouseltempimage image={tempCarousel3} />
+              <TICarousel image={tempCarousel3} />
             </div>
             <div className="Carousel-Caption">
               <h3>Carnival</h3>

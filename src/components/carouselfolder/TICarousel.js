@@ -1,6 +1,6 @@
 import React from "react";
 
-function Carouseltempimage({ image }) {
+function TICarousel({ image }) {
   return (
     <div>
       <img src={image} alt="Carousel pic" />
@@ -8,4 +8,4 @@ function Carouseltempimage({ image }) {
   );
 }
 
-export default Carouseltempimage;
+export default TICarousel;
