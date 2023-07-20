@@ -7,6 +7,7 @@ import tempCarousel2 from "../../Images/TempCarousel/image2.png";
 import tempCarousel3 from "../../Images/TempCarousel/image 3.png";
 
 function NRCarousel() {
+  //for each in an array!!
   return (
     <div className="FullWidthCC">
       <div className="Carousel-Container">
