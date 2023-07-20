@@ -1,7 +1,7 @@
 import "./Page.css/HomePage.css";
 import "../../App.css";
 import React from "react";
-import RotatingCarousel from "../carousel/carousel";
+import NRCarousel from "../carousel/NRCarousel";
 import Fadebackground from "./Fadebackground";
 
 import tempCarousel1 from "../../images/tempcarousel/image1.png";
@@ -22,7 +22,7 @@ function HomePage() {
       <div className="bodyContainer">
         <h1 className="bodyText bubbleWhite">New Arivals</h1>
       </div>
-      <RotatingCarousel></RotatingCarousel>
+      <NRCarousel/>
       <div></div>
       <div className="bodyContainer">
         <h1 className="bodyText bubbleWhite">Most Popular</h1>
