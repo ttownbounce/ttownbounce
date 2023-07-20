@@ -3,10 +3,10 @@ import { useState } from "react";
 import { useEffect } from "react";
 import { NavLink } from "react-router-dom";
 
-import "./Navbar.css";
-import logosvg from "../Images/TTB/Logo.svg";
+import "./navbar.css";
+import logosvg from "../mages/ttb/Logo.svg";
 
-function Navbar() {
+function navbar() {
   const [click, setClick] = useState(false);
 
   const handleClick = () => setClick(!click);
@@ -56,4 +56,4 @@ function Navbar() {
 
 //{button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
 
-export default Navbar;
+export default navbar;
