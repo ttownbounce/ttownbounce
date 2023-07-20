@@ -1,10 +1,10 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import "./NRCarousel.css";
-import CarouselTempImage from "./carouseltempimage";
-import tempCarousel1 from "../../Images/TempCarousel/image1.png";
-import tempCarousel2 from "../../Images/TempCarousel/image2.png";
-import tempCarousel3 from "../../Images/TempCarousel/image 3.png";
+import CarouselTempImage from "./Carouseltempimage";
+import tempCarousel1 from "../../imageicons/tempcarousel/image1.png";
+import tempCarousel2 from "../../imageicons/tempcarousel/image2.png";
+import tempCarousel3 from "../../imageicons/tempcarousel/image 3.png";
 
 function NRCarousel() {
   //for each in an array!!

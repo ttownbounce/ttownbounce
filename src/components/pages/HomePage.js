@@ -4,9 +4,9 @@ import React from "react";
 import NRCarousel from "../carouselfolder/NRCarousel";
 import Fadebackground from "./Fadebackground";
 
-import tempCarousel1 from "../../Images/tempcarousel/image1.png";
-import tempCarousel2 from "../../Images/tempcarousel/image2.png";
-import tempCarousel3 from "../../Images/tempcarousel/image 3.png";
+import tempCarousel1 from "../../imageicons/tempcarousel/image1.png";
+import tempCarousel2 from "../../imageicons/tempcarousel/image2.png";
+import tempCarousel3 from "../../imageicons/tempcarousel/image 3.png";
 
 function HomePage() {
   return (

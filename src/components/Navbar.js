@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import { NavLink } from "react-router-dom";
 
 import "./Navbar.css";
-import logosvg from "../Images/TTB/Logo.svg";
+import logosvg from "../Images/ttb/Logo.svg";
 
 function Navbar() {
   const [click, setClick] = useState(false);
