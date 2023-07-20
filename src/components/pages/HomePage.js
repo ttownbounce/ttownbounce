@@ -1,7 +1,7 @@
 import "./Page.css/HomePage.css";
 import "../../App.css";
 import React from "react";
-import NRCarousel from "../carousel/NRCarousel";
+import NRCarousel from "../nrcarousel/NRCarousel";
 import Fadebackground from "./Fadebackground";
 
 import tempCarousel1 from "../../images/tempcarousel/image1.png";
