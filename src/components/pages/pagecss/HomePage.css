@@ -127,8 +127,6 @@
   
 
   .headerText {
-    letter-spacing: 2px;
-    word-spacing: 5px;
 
     padding-top: 20px;
     padding-bottom: 20px;
@@ -148,6 +146,7 @@
   .bodyText {
     padding-top: 20px;
     padding-bottom: 20px;
+    font-size: 30px;
   }
 
   .bodyContainer {

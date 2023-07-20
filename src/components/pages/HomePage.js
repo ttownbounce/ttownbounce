@@ -14,10 +14,10 @@ function HomePage() {
       <div className="center">
         <div className="headerTextContainer">
           <h1 className="headerText center">
-            Welcome to Ttown Bounce!
+            Welcome to T-Town Bounce
           </h1>
           <h1 className="headerText center">
-            Where laughter and excitement collide
+            Where laughter and excitement collide!
           </h1>
         </div>
       </div>
