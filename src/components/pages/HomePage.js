@@ -13,7 +13,7 @@ function HomePage() {
     <div className="page">
       <div className="headerTextContainer">
         <h1 className="headerText bubbleWhite jumbotron jumbotron-fluid">
-          Welcome to Ttown Bounce TonyBranch!
+          Welcome to Ttown Bounce TonyBranchMerge!
         </h1>
         <h1 className="headerText center bubbleWhite jumbotron jumbotron-fluid">
           Where laughter and excitement collide
