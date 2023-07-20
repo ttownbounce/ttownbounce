@@ -1,14 +1,14 @@
 import "./Page.css/Home.css";
 import "../../App.css";
 import React from "react";
-import RotatingCarousel from "../Carousel/Carousel";
-import FadingBackground from "./FadingBackground";
+import RotatingCarousel from "../carousel/carousel";
+import FadingBackground from "./fadingbackground";
 
-import tempCarousel1 from "../../Images/TempCarousel/image1.png";
-import tempCarousel2 from "../../Images/TempCarousel/image2.png";
-import tempCarousel3 from "../../Images/TempCarousel/image 3.png";
+import tempCarousel1 from "../../images/tempcarousel/image1.png";
+import tempCarousel2 from "../../images/tempcarousel/image2.png";
+import tempCarousel3 from "../../images/tempcarousel/image 3.png";
 
-function Home() {
+function home() {
   return (
     <div className="page">
       <div className="headerTextContainer">
@@ -40,4 +40,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default home;
