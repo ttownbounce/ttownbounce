@@ -1,0 +1,22 @@
+.FooterColor {
+    background-color: #fde900;
+}
+
+
+@font-face {
+    font-family: "YourCustomFont"; /* Name the font family whatever you prefer */
+    src: url("../TextFonts/BLOBBYCHUG-Bold.ttf") format("truetype");
+  }
+
+.fontfortext {
+  font-family: "YourCustomFont", sans-serif;
+}
+
+.bluefortext{
+    color: #1a06f8;
+}
+
+.redfortext {
+    color: #f30b00;
+}
+

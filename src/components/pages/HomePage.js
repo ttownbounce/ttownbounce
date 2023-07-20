@@ -35,9 +35,6 @@ function HomePage() {
         <img src={tempCarousel3} alt="3" className="numberImages" />
       </div>
       <Fadebackground />
-      <footer className="center">
-        <button>Employee Portal</button>
-      </footer>
     </div>
   );
 }
