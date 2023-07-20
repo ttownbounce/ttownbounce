@@ -53,14 +53,6 @@
   padding-bottom: 25px;
 }
 
-.jumbotron {
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-}
-
-
 .bubbleWhite {
   background-color: #ffffd2ff; /* Replace with your desired background color */
   color: #1a06f8; /* Set the text color for better contrast */

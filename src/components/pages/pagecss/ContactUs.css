@@ -1,0 +1,175 @@
+.headerText {
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: "YourCustomFont", sans-serif;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  
+  
+    font-size: 60px; /* Set the font size */
+    font-weight: bold; /* Set the font weight */
+    line-height: 1.5; /* Optional: Adjust line height for better text spacing */
+    padding: 10px 20px; /* Add padding to create space between text and border */
+    display: inline-block; /* Make the bubble take up only as much width as needed */
+    max-width: 100%; /* Allow the bubble to take the full available width when the text wraps */
+    word-wrap: break-word; /* Allow the text to wrap within the bubble */
+    color: #1a06f8;
+    -webkit-text-stroke: 2px #fde900; /* Add an outline around the text characters */
+  }
+  
+  
+  
+  .bodyText {
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: "YourCustomFont", sans-serif;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 50px; /* Optionally, add border-radius to make the corners rounded */
+    -webkit-text-stroke: 2px black; /* Add an outline around the text characters */
+  }
+  
+  .headerTextContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  
+  .bodyContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 25px;
+  }
+  
+  
+  .bubbleWhite {
+    background-color: #ffffd2ff; /* Replace with your desired background color */
+    color: #1a06f8; /* Set the text color for better contrast */
+    border-radius: 50px; /* Adjust this value to control the roundness of the bubble */
+    font-size: 40px; /* Set the font size */
+    font-weight: bold; /* Set the font weight */
+    line-height: 1.5; /* Optional: Adjust line height for better text spacing */
+    padding: 10px 20px; /* Add padding to create space between text and border */
+    display: inline-block; /* Make the bubble take up only as much width as needed */
+    max-width: fit-content; /* Allow the bubble to shrink to fit the content */
+    word-wrap: break-word; /* Allow the text to wrap within the bubble */
+  }
+  
+  .page {
+    min-height: 100vh;
+  }
+
+  .emailtext {
+    background-color: #ffffd2ff; /* Replace with your desired background color */
+    color: #1a06f8; /* Set the text color for better contrast */
+    border-radius: 50px; /* Adjust this value to control the roundness of the bubble */
+    font-size: 40px; /* Set the font size */
+    font-weight: bold; /* Set the font weight */
+    line-height: 1.5; /* Optional: Adjust line height for better text spacing */
+    padding: 10px 20px; /* Add padding to create space between text and border */
+    display: inline-block; /* Make the bubble take up only as much width as needed */
+    max-width: fit-content; /* Allow the bubble to shrink to fit the content */
+    word-wrap: break-word; /* Allow the text to wrap within the bubble */
+  }
+  
+  @font-face {
+    font-family: "YourCustomFont"; /* Name the font family whatever you prefer */
+    src: url("../../../TextFonts/BLOBBYCHUG-Bold.ttf") format("truetype");
+  }
+  /* src: url("../../../TextFonts/Double_Bubble_shadow.otf") format("opentype"); */
+  /* src: url("../../../TextFonts/RubikBubbles-Regular.ttf") format("truetype"); */
+  
+  .mostPopular {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Allow images to wrap into a column */
+  }
+  
+  .numberImages {
+    width: 300px;
+    height: 300px;
+    padding: 1%;
+  }
+  
+  
+  
+  
+  
+  
+  @media screen and (max-width: 960px) {
+    .mostPopular img {
+      flex-basis: 51%;
+      height: auto;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  @media screen and (max-width: 768px) {
+    .bubbleWhite {
+      border-radius: 50px;
+    }
+  
+    .bubbleWhite {
+      font-size: 15px;
+    }
+    
+  
+    .headerText {
+  
+      padding-top: 20px;
+      padding-bottom: 20px;
+    
+    
+      font-size: 30px; /* Set the font size */
+    }
+  
+    .headerTextContainer {
+      padding-top: 30px;
+      padding-bottom: 30px;
+  
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+  
+    .bodyText {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      font-size: 30px;
+    }
+  
+    .bodyContainer {
+      padding-top: 25px;
+      padding-bottom: 5px;
+    }
+
+    .emailtext {
+        background-color: #ffffd2ff; /* Replace with your desired background color */
+        color: #1a06f8; /* Set the text color for better contrast */
+        border-radius: 50px; /* Adjust this value to control the roundness of the bubble */
+        font-size: 20px; /* Set the font size */
+        font-weight: bold; /* Set the font weight */
+        line-height: 1.5; /* Optional: Adjust line height for better text spacing */
+        padding: 10px 20px; /* Add padding to create space between text and border */
+        display: inline-block; /* Make the bubble take up only as much width as needed */
+        max-width: fit-content; /* Allow the bubble to shrink to fit the content */
+        word-wrap: break-word; /* Allow the text to wrap within the bubble */
+      }
+  }
+  
