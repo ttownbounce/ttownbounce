@@ -2,7 +2,7 @@ import "./pagecss/HomePage.css";
 import "../../App.css";
 import React from "react";
 import RotatingCarousel from "../carouselfolder/RotatingCarousel";
-import FadeBackground from "./FadeBackground";
+import BackgroundFade from "../BackgroundFade";
 
 import tempCarousel1 from "../../images/tempcarousel/image1.png";
 import tempCarousel2 from "../../images/tempcarousel/image2.png";
@@ -34,7 +34,7 @@ function HomePage() {
         <img src={tempCarousel2} alt="2" className="numberImages" />
         <img src={tempCarousel3} alt="3" className="numberImages" />
       </div>
-      <FadeBackground />
+      <BackgroundFade />
     </div>
   );
 }

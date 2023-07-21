@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import "./pagecss/FadeBackground.css";
+import "./BackgroundFade.css";
 
-const FadeBackground = () => {
+const BackgroundFade = () => {
   const [scrollOpacity, setScrollOpacity] = useState(1);
 
   useEffect(() => {
@@ -27,4 +27,4 @@ const FadeBackground = () => {
   );
 };
 
-export default FadeBackground;
+export default BackgroundFade;
