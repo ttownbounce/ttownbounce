@@ -1,22 +1,22 @@
 import "./pagecss/ContactUs.css";
 import "../../App.css";
 import React from "react";
-import Fadebackground from "./Fadebackground";
+import Fadebackground from "./FadeBackground";
 
 function HomePage() {
   return (
     <div className="page">
-      <div className="bodyContainer">
-        <h1 className="headerText center">Contact Us By Phone</h1>
+      <div className="cubodyContainer">
+        <h1 className="cuheaderText center">Contact Us By Phone</h1>
       </div>
-      <div className="bodyContainer">
-        <h1 className="bodyText bubbleWhite ">205-454-5120</h1>
+      <div className="cubodyContainer">
+        <h1 className="cubodyText cububbleWhite ">205-454-5120</h1>
       </div>
-      <div className="bodyContainer">
-        <h1 className="headerText center">Contact Us By Email</h1>
+      <div className="cubodyContainer">
+        <h1 className="cuheaderText center">Contact Us By Email</h1>
       </div>
-      <div className="bodyContainer">
-        <h1 className="bodyText emailtext">TTownBounce@gmail.com</h1>
+      <div className="cubodyContainer">
+        <h1 className="cubodyText emailtext">TTownBounce@gmail.com</h1>
       </div>
       <Fadebackground />
     </div>

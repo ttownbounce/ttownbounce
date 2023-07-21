@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: "YourCustomFont"; /* Name the font family whatever you prefer */
-    src: url("../TextFonts/BLOBBYCHUG-Bold.ttf") format("truetype");
+    src: url("../fonts/BLOBBYCHUG-Bold.ttf") format("truetype");
   }
 
 .fontfortext {
@@ -18,5 +18,10 @@
 
 .redfortext {
     color: #f30b00;
+}
+
+
+.textFontSize {
+  font-size: 20px;
 }
 

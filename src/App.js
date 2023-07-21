@@ -3,7 +3,7 @@ import "./App.css";
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 
 import Navbar from "./components/Navbar"
-import TTBFooter from "./components/TTBFooter";
+import Footer from "./components/Footer";
 
 import HomePage from "./components/pages/HomePage";
 import ContactUs from "./components/pages/ContactUs"
@@ -18,7 +18,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/Contact" element={<ContactUs />} />
         </Routes>
-        <TTBFooter/>
+        <Footer/>
       </Router>
     </div>
   );

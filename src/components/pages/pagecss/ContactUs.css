@@ -1,4 +1,4 @@
-.headerText {
+.cuheaderText {
     letter-spacing: 2px;
     word-spacing: 5px;
     display: flex;
@@ -23,7 +23,7 @@
   
   
   
-  .bodyText {
+  .cubodyText {
     letter-spacing: 2px;
     word-spacing: 5px;
     display: flex;
@@ -37,7 +37,7 @@
     -webkit-text-stroke: 2px black; /* Add an outline around the text characters */
   }
   
-  .headerTextContainer {
+  .cuheaderTextContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -45,7 +45,7 @@
     padding-bottom: 100px;
   }
   
-  .bodyContainer {
+  .cubodyContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -54,7 +54,7 @@
   }
   
   
-  .bubbleWhite {
+  .cububbleWhite {
     background-color: #ffffd2ff; /* Replace with your desired background color */
     color: #1a06f8; /* Set the text color for better contrast */
     border-radius: 50px; /* Adjust this value to control the roundness of the bubble */
@@ -86,7 +86,7 @@
   
   @font-face {
     font-family: "YourCustomFont"; /* Name the font family whatever you prefer */
-    src: url("../../../TextFonts/BLOBBYCHUG-Bold.ttf") format("truetype");
+    src: url("../../../fonts/BLOBBYCHUG-Bold.ttf") format("truetype");
   }
   /* src: url("../../../TextFonts/Double_Bubble_shadow.otf") format("opentype"); */
   /* src: url("../../../TextFonts/RubikBubbles-Regular.ttf") format("truetype"); */
@@ -122,16 +122,12 @@
   
   
   @media screen and (max-width: 768px) {
-    .bubbleWhite {
+    .cububbleWhite {
       border-radius: 50px;
-    }
-  
-    .bubbleWhite {
       font-size: 15px;
     }
-    
   
-    .headerText {
+    .cuheaderText {
   
       padding-top: 20px;
       padding-bottom: 20px;
@@ -140,7 +136,7 @@
       font-size: 30px; /* Set the font size */
     }
   
-    .headerTextContainer {
+    .cuheaderTextContainer {
       padding-top: 30px;
       padding-bottom: 30px;
   
@@ -148,13 +144,13 @@
       margin-right: 5px;
     }
   
-    .bodyText {
+    .cubodyText {
       padding-top: 20px;
       padding-bottom: 20px;
       font-size: 30px;
     }
   
-    .bodyContainer {
+    .cubodyContainer {
       padding-top: 25px;
       padding-bottom: 5px;
     }
