@@ -17,8 +17,8 @@
   display: inline-block; /* Make the bubble take up only as much width as needed */
   max-width: 100%; /* Allow the bubble to take the full available width when the text wraps */
   word-wrap: break-word; /* Allow the text to wrap within the bubble */
-  color: #1a06f8;
-  -webkit-text-stroke: 3px #fde900; /* Add an outline around the text characters */
+  color: #fde900;
+  -webkit-text-stroke: 1px #1a06f8; /* Add an outline around the text characters */
 }
 
 
