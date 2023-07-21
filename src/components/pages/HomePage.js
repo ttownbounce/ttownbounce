@@ -1,12 +1,12 @@
 import "./pagecss/HomePage.css";
 import "../../App.css";
 import React from "react";
-import NRCarousel from "../carouselfolder/NRCarousel";
-import Fadebackground from "./Fadebackground";
+import RotatingCarousel from "../carouselfolder/RotatingCarousel";
+import FadeBackground from "./FadeBackground";
 
-import tempCarousel1 from "../../imageicons/tempcarousel/image1.png";
-import tempCarousel2 from "../../imageicons/tempcarousel/image2.png";
-import tempCarousel3 from "../../imageicons/tempcarousel/image 3.png";
+import tempCarousel1 from "../../images/tempcarousel/image1.png";
+import tempCarousel2 from "../../images/tempcarousel/image2.png";
+import tempCarousel3 from "../../images/tempcarousel/image 3.png";
 
 function HomePage() {
   return (
@@ -24,7 +24,7 @@ function HomePage() {
       <div className="bodyContainer">
         <h1 className="bodyText bubbleWhite">New Arivals</h1>
       </div>
-      <NRCarousel/>
+      <RotatingCarousel/>
       <div></div>
       <div className="bodyContainer">
         <h1 className="bodyText bubbleWhite">Most Popular</h1>
@@ -34,7 +34,7 @@ function HomePage() {
         <img src={tempCarousel2} alt="2" className="numberImages" />
         <img src={tempCarousel3} alt="3" className="numberImages" />
       </div>
-      <Fadebackground />
+      <FadeBackground />
     </div>
   );
 }

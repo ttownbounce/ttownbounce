@@ -1,12 +1,12 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
-import "./NRCarousel.css";
+import "./RotatingCarousel.css";
 
-import TICarousel from "./TICarousel";
+import CaroselImage from "./CarouselImage";
 
-import tempCarousel1 from "../../imageicons/tempcarousel/image1.png";
-import tempCarousel2 from "../../imageicons/tempcarousel/image2.png";
-import tempCarousel3 from "../../imageicons/tempcarousel/image 3.png";
+import tempCarousel1 from "../../images/tempcarousel/image1.png";
+import tempCarousel2 from "../../images/tempcarousel/image2.png";
+import tempCarousel3 from "../../images/tempcarousel/image 3.png";
 
 function NRCarousel() {
   //for each in an array!!
@@ -16,7 +16,7 @@ function NRCarousel() {
         <Carousel>
           <Carousel.Item interval={2000}>
             <div className="Carousel-Image">
-              <TICarousel image={tempCarousel1} />
+              <CaroselImage image={tempCarousel1} />
             </div>
             <div className="Carousel-Caption">
               <h3>27ft Slide</h3>
@@ -25,7 +25,7 @@ function NRCarousel() {
           </Carousel.Item>
           <Carousel.Item interval={2000}>
             <div className="Carousel-Image">
-              <TICarousel image={tempCarousel2} />
+              <CaroselImage image={tempCarousel2} />
             </div>
             <div className="Carousel-Caption">
               <h3>Basketball</h3>
@@ -34,7 +34,7 @@ function NRCarousel() {
           </Carousel.Item>
           <Carousel.Item interval={2000}>
             <div className="Carousel-Image">
-              <TICarousel image={tempCarousel3} />
+              <CaroselImage image={tempCarousel3} />
             </div>
             <div className="Carousel-Caption">
               <h3>Carnival</h3>
