@@ -100,14 +100,21 @@
   }
 
   .nav-item {
-    padding: 30px;
-    border-radius: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .nav-item:hover {
+    border-radius: 40px;
+    border: solid #f30b00 3px;
+    color: #f30b00;
   }
 
   .nav-links {
     color: #1a06f8;
     text-decoration: none;
-    padding: 40px; /* Adjust the padding to create space between nav items */
+    padding-bottom: 40px;
+    padding-top: 40px; /* Adjust the padding to create space between nav items */
     justify-content: center;
     align-items: center;
   }
