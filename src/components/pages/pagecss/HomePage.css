@@ -34,7 +34,8 @@
   padding-top: 50px;
   padding-bottom: 50px;
   border-radius: 50px; /* Optionally, add border-radius to make the corners rounded */
-  -webkit-text-stroke: 2px black; /* Add an outline around the text characters */
+  color: #fde900;
+  -webkit-text-stroke: 2px #1a06f8; /* Add an outline around the text characters */
 }
 
 .headerTextContainer {
@@ -55,7 +56,6 @@
 
 .bubbleWhite {
   background-color: #ffffd2ff; /* Replace with your desired background color */
-  color: #1a06f8; /* Set the text color for better contrast */
   border-radius: 50px; /* Adjust this value to control the roundness of the bubble */
   font-size: 40px; /* Set the font size */
   font-weight: bold; /* Set the font weight */
@@ -71,11 +71,12 @@
 }
 
 @font-face {
-  font-family: "BLOBBYCHUG"; /* Name the font family whatever you prefer */
-  src: url("../../../fonts/BLOBBYCHUG-Bold.ttf") format("truetype");
 
   font-family: "BubbleBobble"; /* Name the font family whatever you prefer */
   src: url("../../../fonts/BubbleBobble-rg3rx.ttf") format("truetype");
+
+  font-family: "BLOBBYCHUG"; /* Name the font family whatever you prefer */
+  src: url("../../../fonts/BLOBBYCHUG-Bold.ttf") format("truetype");
 }
 
 /* src: url("../../../TextFonts/Double_Bubble_shadow.otf") format("opentype"); */
@@ -129,8 +130,11 @@
   
     font-size: 30px; /* Set the font size */
 
-    font-family: "BubbleBobble", sans-serif;
-    -webkit-text-stroke: 0px; /* Add an outline around the text characters */
+    color: #fde900;
+    -webkit-text-stroke: 1.25px #1a06f8; /* Add an outline around the text characters */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+    
   }
 
   .headerTextContainer {
@@ -146,8 +150,9 @@
     padding-bottom: 20px;
     font-size: 30px;
 
-    font-family: "BubbleBobble", sans-serif;
-    -webkit-text-stroke: 0px; /* Add an outline around the text characters */
+    color: #1a06f8;
+    -webkit-text-stroke: 1px #1a06f8; /* Add an outline around the text characters */
+    
   }
 
   .bodyContainer {
