@@ -1,7 +1,7 @@
 import "./pagecss/ContactUs.css";
-import "../../App.css";
+import "../App.css";
 import React from "react";
-import BackgroundFade from "../BackgroundFade";
+import BackgroundFade from "../components/BackgroundFade";
 
 function HomePage() {
   return (

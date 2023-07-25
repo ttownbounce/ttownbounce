@@ -11,7 +11,7 @@ const BackgroundFade = () => {
       setScrollOpacity(opacity < 0 ? 0 : opacity); // Ensure opacity doesn't go below 0
 
       // Optionally, you can change the background color here based on the scroll position
-      const backgroundColor = `rgba(255, 255, 210, ${1 - opacity})`;
+      const backgroundColor = `rgba(255,255,255, ${1 - opacity})`;
       document.body.style.backgroundColor = backgroundColor;
     };
 

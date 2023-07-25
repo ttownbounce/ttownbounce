@@ -4,3 +4,18 @@
     align-items: center;
     text-align: center;
 }
+
+:root {
+    --Color1: #1e90ff;
+    --Color2: #77d1fd;
+
+    --Color3: #66ff66;
+    --Color4: #cbffcc;
+
+    --Color5: #FF0000;
+    --Color6: #ffff;
+    
+  }
+
+
+  /* first green #32ff5e */

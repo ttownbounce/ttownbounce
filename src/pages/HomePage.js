@@ -1,24 +1,21 @@
 import "./pagecss/HomePage.css";
-import "../../App.css";
+import "../App.css";
 import React from "react";
-import RotatingCarousel from "../carouselfolder/RotatingCarousel";
-import BackgroundFade from "../BackgroundFade";
+import RotatingCarousel from "../components/carouselfolder/RotatingCarousel";
+import BackgroundFade from "../components/BackgroundFade";
 
-import tempCarousel1 from "../../images/tempcarousel/image1.png";
-import tempCarousel2 from "../../images/tempcarousel/image2.png";
-import tempCarousel3 from "../../images/tempcarousel/image 3.png";
+import homeImage from "../images/ttb/FTTBD.png"
+
+import tempCarousel1 from "../images/tempcarousel/image1.png";
+import tempCarousel2 from "../images/tempcarousel/image2.png";
+import tempCarousel3 from "../images/tempcarousel/image 3.png";
 
 function HomePage() {
   return (
     <div className="page">
       <div className="center">
-        <div className="headerTextContainer">
-          <h1 className="headerText center">
-            Welcome to T-Town Bounce
-          </h1>
-          <h1 className="headerText center">
-            Where laughter and excitement collide!
-          </h1>
+        <div className="imageContainer">
+          <img src={homeImage} alt="T-Town Bounce" />
         </div>
       </div>
       <div className="bodyContainer">

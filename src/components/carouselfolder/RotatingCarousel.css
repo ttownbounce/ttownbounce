@@ -9,12 +9,12 @@
 .Carousel-Container {
   width: 400px;
   height: auto;
-  border: 1px solid #fde900;
+  border: 1px solid var(--Color3);
   overflow: hidden;
 }
 
 .carousel-indicators .active {
-  background-color: #1a06f8; /* Set the background color for the active indicator */
+  background-color: var(--Color1); /* Set the background color for the active indicator */
 }
 
 .Carousel-Image {
@@ -30,8 +30,8 @@
   align-items: center;
   justify-content: center;
   height: 30%; /* Set the height for the caption (adjust as needed) */
-  background-color: #fde900;/* Add a semi-transparent background to make the text more readable */
-  color: #1a06f8; /* Set the text color to white */
+  background-color: var(--Color3);/* Add a semi-transparent background to make the text more readable */
+  color: var(--Color1); /* Set the text color to white */
   padding: 10px; /* Add some padding to the caption for better aesthetics */
   font-size: 1.2rem;
   font-weight: bold;
@@ -48,7 +48,7 @@
   .Carousel-Container {
     width: 300px; /* Set the width you desire */
     height: auto; /* Set the height you desire to accommodate image and caption */
-    border: 1px solid #fde900; /* Add a border to create the box effect */
+    border: 1px solid var(--Color3); /* Add a border to create the box effect */
     overflow: hidden; /* Hide any content that overflows the container */
   }
 }
