@@ -1,3 +1,16 @@
+.imageContainer {
+  height: 55vh; /* Set the desired height for the container */
+  position: relative; /* Optional, but useful for positioning the image inside the container */
+  display: flex;
+  justify-content: center;
+}
+
+.imageContainer img {
+  height: 100%; /* Set the height of the image to 100% of the container's height */
+  width: auto; /* This will automatically adjust the width to maintain the aspect ratio */
+  display: block; /* Ensures the image behaves as a block element */
+}
+
 .headerText {
   letter-spacing: 2px;
   word-spacing: 5px;
@@ -17,13 +30,14 @@
   display: inline-block; /* Make the bubble take up only as much width as needed */
   max-width: 100%; /* Allow the bubble to take the full available width when the text wraps */
   word-wrap: break-word; /* Allow the text to wrap within the bubble */
-  color: #fde900;
-  -webkit-text-stroke: 1px #1a06f8; /* Add an outline around the text characters */
+  color: var(--Color3);
+  -webkit-text-stroke: 1px var(--Color1); /* Add an outline around the text characters */
 }
 
 
 
 .bodyText {
+  
   letter-spacing: 2px;
   word-spacing: 5px;
   display: flex;
@@ -34,8 +48,8 @@
   padding-top: 50px;
   padding-bottom: 50px;
   border-radius: 50px; /* Optionally, add border-radius to make the corners rounded */
-  color: #fde900;
-  -webkit-text-stroke: 2px #1a06f8; /* Add an outline around the text characters */
+  color: var(--Color3);
+  -webkit-text-stroke: 1px var(--Color1); /* Add an outline around the text characters */
 }
 
 .headerTextContainer {
@@ -50,14 +64,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 50px;
+  padding-top: 30px;
   padding-bottom: 25px;
 }
 
 .bubbleWhite {
-  background-color: #ffffd2ff; /* Replace with your desired background color */
+  background-color: var(--Color6); /* Replace with your desired background color */
   border-radius: 50px; /* Adjust this value to control the roundness of the bubble */
-  font-size: 40px; /* Set the font size */
+  font-size: 60px; /* Set the font size */
   font-weight: bold; /* Set the font weight */
   line-height: 1.5; /* Optional: Adjust line height for better text spacing */
   padding: 10px 20px; /* Add padding to create space between text and border */
@@ -73,10 +87,10 @@
 @font-face {
 
   font-family: "BubbleBobble"; /* Name the font family whatever you prefer */
-  src: url("../../../fonts/BubbleBobble-rg3rx.ttf") format("truetype");
+  src: url("../../fonts/BubbleBobble-rg3rx.ttf") format("truetype");
 
   font-family: "BLOBBYCHUG"; /* Name the font family whatever you prefer */
-  src: url("../../../fonts/BLOBBYCHUG-Bold.ttf") format("truetype");
+  src: url("../../fonts/BLOBBYCHUG-Bold.ttf") format("truetype");
 }
 
 /* src: url("../../../TextFonts/Double_Bubble_shadow.otf") format("opentype"); */
@@ -118,7 +132,7 @@
   }
 
   .bubbleWhite {
-    font-size: 15px;
+    font-size: 50px;
   }
   
 
@@ -130,9 +144,7 @@
   
     font-size: 30px; /* Set the font size */
 
-    color: #fde900;
-    -webkit-text-stroke: 1.25px #1a06f8; /* Add an outline around the text characters */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
 
     
   }
@@ -148,10 +160,7 @@
   .bodyText {
     padding-top: 20px;
     padding-bottom: 20px;
-    font-size: 30px;
 
-    color: #1a06f8;
-    -webkit-text-stroke: 1px #1a06f8; /* Add an outline around the text characters */
     
   }
 

@@ -17,8 +17,8 @@
     display: inline-block; /* Make the bubble take up only as much width as needed */
     max-width: 100%; /* Allow the bubble to take the full available width when the text wraps */
     word-wrap: break-word; /* Allow the text to wrap within the bubble */
-    color: #fde900;
-    -webkit-text-stroke: 1px #1a06f8; /* Add an outline around the text characters */
+    color: var(--Color3);
+    -webkit-text-stroke: 1px var(--Color1); /* Add an outline around the text characters */
   }
   
   
@@ -55,7 +55,7 @@
   
   
   .cububbleWhite {
-    background-color: #ffffd2ff; /* Replace with your desired background color */
+    background-color: var(--Color6); /* Replace with your desired background color */
     border-radius: 50px; /* Adjust this value to control the roundness of the bubble */
     line-height: 1.5; /* Optional: Adjust line height for better text spacing */
     padding: 10px 20px; /* Add padding to create space between text and border */
@@ -70,7 +70,7 @@
   }
 
   .infoText {
-    color: #1a06f8; /* Set the text color for better contrast */
+    color: var(--Color1); /* Set the text color for better contrast */
     font-size: 40px; /* Set the font size */
     font-weight: bold; /* Set the font weight */
 
@@ -81,10 +81,10 @@
   @font-face {
 
     font-family: "BubbleBobble"; /* Name the font family whatever you prefer */
-    src: url("../../../fonts/BubbleBobble-rg3rx.ttf") format("truetype");
+    src: url("../../fonts/BubbleBobble-rg3rx.ttf") format("truetype");
   
     font-family: "BLOBBYCHUG"; /* Name the font family whatever you prefer */
-    src: url("../../../fonts/BLOBBYCHUG-Bold.ttf") format("truetype");
+    src: url("../../fonts/BLOBBYCHUG-Bold.ttf") format("truetype");
   }
   /* src: url("../../../TextFonts/Double_Bubble_shadow.otf") format("opentype"); */
   /* src: url("../../../TextFonts/RubikBubbles-Regular.ttf") format("truetype"); */
@@ -157,7 +157,6 @@
     }
 
     .infoText {
-        color: #1a06f8; /* Set the text color for better contrast */
         font-size: 20px; /* Set the font size */
         font-weight: bold; /* Set the font weight */
 

@@ -8,8 +8,8 @@ import { useLocation } from "react-router-dom";
 import Navbar from "./components/Navbar"
 import Footer from "./components/Footer";
 
-import HomePage from "./components/pages/HomePage";
-import ContactUs from "./components/pages/ContactUs"
+import HomePage from "./pages/HomePage";
+import ContactUs from "./pages/ContactUs"
 
 function ScrollToTop() {
   const { pathname } = useLocation();

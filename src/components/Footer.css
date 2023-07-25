@@ -1,5 +1,5 @@
 .FooterColor {
-    background-color: #fde900;
+    background-color: var(--Color3);
 }
 
 
@@ -13,11 +13,11 @@
 }
 
 .bluefortext{
-    color: #1a06f8;
+    color: var(--Color1);
 }
 
 .redfortext {
-    color: #f30b00;
+    color: var(--Color5);
 }
 
 
