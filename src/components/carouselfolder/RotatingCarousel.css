@@ -1,4 +1,4 @@
-/* Add this CSS to your stylesheet or component */
+/* RotatingCarousel.css */
 
 .FullWidthCC {
   display: flex;
@@ -22,6 +22,7 @@
   align-items: center;
   justify-content: center;
   height: 70%;
+  cursor: pointer; /* Add pointer cursor on hover */
 }
 
 .Carousel-Caption {
@@ -30,14 +31,15 @@
   align-items: center;
   justify-content: center;
   height: 30%; /* Set the height for the caption (adjust as needed) */
-  background-color: var(--Color3);/* Add a semi-transparent background to make the text more readable */
+  background-color: var(--Color3); /* Add a semi-transparent background to make the text more readable */
   color: var(--Color1); /* Set the text color to white */
   padding: 10px; /* Add some padding to the caption for better aesthetics */
   font-size: 1.2rem;
   font-weight: bold;
+  cursor: pointer; /* Add pointer cursor on hover */
 }
 
-@media screen and (max-width: 960px){
+@media screen and (max-width: 960px) {
   /* Media query for screens smaller than 960 pixels */
   .carousel-indicators,
   .carousel-control-prev,
