@@ -7,8 +7,6 @@ import "./Navbar.css";
 import logopng from "../images/ttb/TTB.png";
 import logopng2 from "../images/ttb/FTTB.png";
 
-import frog from "../images/ttb/F.png";
-
 function Navbar() {
   const [click, setClick] = useState(false);
 
@@ -41,7 +39,7 @@ function Navbar() {
 
           <li className="nav-item">
             <NavLink to="/RI" className="nav-links" onClick={handleClick}>
-            <img src={frog} alt="Frog img" style={{ height: "1em" }} />Rentals/Inflatables<img src={frog} alt="Frog img" style={{ height: "1em" }} />
+            Rentals/Inflatables
             </NavLink>
           </li>
           <li className="nav-item">

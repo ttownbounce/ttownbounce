@@ -5,6 +5,7 @@ import RotatingCarousel from "../components/carouselfolder/RotatingCarousel";
 import BackgroundFade from "../components/BackgroundFade";
 
 import homeImage from "../images/ttb/FTTBD.png"
+import frog from "../images/ttb/F.png";
 
 import tempCarousel1 from "../images/tempcarousel/image1.png";
 import tempCarousel2 from "../images/tempcarousel/image2.png";
@@ -24,7 +25,7 @@ function HomePage() {
       <RotatingCarousel/>
       <div></div>
       <div className="bodyContainer">
-        <h1 className="bodyText bubbleWhite">Most Popular</h1>
+      <h1 className="bodyText bubbleWhite"><img src={frog} alt="Frog img" style={{ height: "1em" }} />Most Popular<img src={frog} alt="Frog img" style={{ height: "1em" }} /></h1>
       </div>
       <div className="mostPopular">
         <img src={tempCarousel1} alt="1" className="numberImages" />
