@@ -12,6 +12,25 @@ import tempCarousel2 from "../images/tempcarousel/image2.png";
 import tempCarousel3 from "../images/tempcarousel/image 3.png";
 
 function HomePage() {
+  const carouselData = [
+    {
+      image: tempCarousel1,
+      title: "27ft Slide",
+      price: 500,
+    },
+    {
+      image: tempCarousel2,
+      title: "Basketball",
+      price: 450,
+    },
+    {
+      image: tempCarousel3,
+      title: "Carnival",
+      price: 300,
+    },
+    // Add more carousel items as needed...
+  ];
+
   return (
     <div className="page">
       <div className="center">
@@ -22,7 +41,7 @@ function HomePage() {
       <div className="bodyContainer">
         <h1 className="bodyText bubbleWhite">New Arivals</h1>
       </div>
-      <RotatingCarousel/>
+      <RotatingCarousel carouselData={carouselData} />
       <div></div>
       <div className="bodyContainer">
       <h1 className="bodyText bubbleWhite"><img src={frog} alt="Frog img" style={{ height: "1em" }} />Most Popular<img src={frog} alt="Frog img" style={{ height: "1em" }} /></h1>

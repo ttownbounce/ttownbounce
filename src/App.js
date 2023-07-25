@@ -9,7 +9,10 @@ import Navbar from "./components/Navbar"
 import Footer from "./components/Footer";
 
 import HomePage from "./pages/HomePage";
-import ContactUs from "./pages/ContactUs"
+import RI from "./pages/RI";
+import ContactUs from "./pages/ContactUs";
+import RentalDetails from "./pages/RentalDetails"; // Import the RentalDetails component
+
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -25,15 +28,18 @@ function App() {
   return (
     <div>
       <Router>
-      <ScrollToTop />
+        <ScrollToTop/>
         <Navbar />
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/RI" element={<RI />} />
           <Route path="/Contact" element={<ContactUs />} />
+          <Route path="/rental/:id" element={<RentalDetails />} /> {/* New route for RentalDetails */}
         </Routes>
-        <Footer/>
+        <Footer />
       </Router>
     </div>
   );
-} //routes are the same as the old way of using switches
+}
+
 export default App;

@@ -1,50 +1,27 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
-import "./RotatingCarousel.css";
-
 import CaroselImage from "./CarouselImage";
 
-import tempCarousel1 from "../../images/tempcarousel/image1.png";
-import tempCarousel2 from "../../images/tempcarousel/image2.png";
-import tempCarousel3 from "../../images/tempcarousel/image 3.png";
-
-function NRCarousel() {
-  //for each in an array!!
+function RotatingCarousel({ carouselData, onCardClick }) {
   return (
     <div className="FullWidthCC">
       <div className="Carousel-Container">
         <Carousel>
-          <Carousel.Item interval={2000}>
-            <div className="Carousel-Image">
-              <CaroselImage image={tempCarousel1} />
-            </div>
-            <div className="Carousel-Caption">
-              <h3>27ft Slide</h3>
-              <p>$500</p>
-            </div>
-          </Carousel.Item>
-          <Carousel.Item interval={2000}>
-            <div className="Carousel-Image">
-              <CaroselImage image={tempCarousel2} />
-            </div>
-            <div className="Carousel-Caption">
-              <h3>Basketball</h3>
-              <p>$450</p>
-            </div>
-          </Carousel.Item>
-          <Carousel.Item interval={2000}>
-            <div className="Carousel-Image">
-              <CaroselImage image={tempCarousel3} />
-            </div>
-            <div className="Carousel-Caption">
-              <h3>Carnival</h3>
-              <p>$300</p>
-            </div>
-          </Carousel.Item>
+          {carouselData.map((item, index) => (
+            <Carousel.Item key={index} interval={2000} onClick={() => onCardClick(item.id)}>
+              <div className="Carousel-Image">
+                <CaroselImage image={item.image} />
+              </div>
+              <div className="Carousel-Caption">
+                <h3>{item.title}</h3>
+                <p>${item.price}</p>
+              </div>
+            </Carousel.Item>
+          ))}
         </Carousel>
       </div>
     </div>
   );
 }
 
-export default NRCarousel;
+export default RotatingCarousel;
