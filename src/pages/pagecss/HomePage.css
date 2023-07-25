@@ -1,5 +1,5 @@
 .imageContainer {
-  height: 55vh; /* Set the desired height for the container */
+  height: 60vh; /* Set the desired height for the container */
   position: relative; /* Optional, but useful for positioning the image inside the container */
   display: flex;
   justify-content: center;
@@ -127,12 +127,18 @@
 
 
 @media screen and (max-width: 768px) {
+
+  .imageContainer {
+    height: 35vh;
+  }
+
+
   .bubbleWhite {
     border-radius: 50px;
   }
 
   .bubbleWhite {
-    font-size: 50px;
+    font-size: 35px;
   }
   
 
@@ -153,8 +159,6 @@
     padding-top: 30px;
     padding-bottom: 30px;
 
-    margin-left: 5px;
-    margin-right: 5px;
   }
 
   .bodyText {
@@ -167,5 +171,12 @@
   .bodyContainer {
     padding-top: 25px;
     padding-bottom: 5px;
+  }
+}
+
+@media screen and (max-width: 310px) {
+
+  .bubbleWhite {
+    font-size: 30px;
   }
 }
