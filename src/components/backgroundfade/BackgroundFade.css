@@ -4,7 +4,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("../images/ttb/inflatables\ .jpg");
+  background-image: url("../../images/ttb/inflatables\ .jpg");
   background-size: cover; /* Use 'cover' to scale the background image proportionally */
   background-position: center; /* Use 'center' to center the background image */
   z-index: -1; /* Ensure the background stays behind other elements */

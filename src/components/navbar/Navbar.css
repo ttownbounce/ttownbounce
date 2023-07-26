@@ -1,12 +1,8 @@
 
-@font-face {
-  font-family: "YourCustomFont"; /* Name the font family whatever you prefer */
-  src: url("../fonts/BLOBBYCHUG-Bold.ttf") format("truetype");
-}
 
 .Navbar {
   background-color: var(--Color3);
-  font-family: "YourCustomFont", sans-serif;
+  font-family: "FaseBulan", sans-serif;
   font-size: 2rem;
   font-weight: bold;
   position: sticky; /* Use sticky positioning */
@@ -21,7 +17,7 @@
 .nav-container {
   display: flex;
   justify-content: space-between; /* Center the child elements horizontally */
-  align-items: center; /* Center the child elements vertically */
+  align-items:flex-end; /* Center the child elements vertically */
   padding: 0 20px; /* Add some padding to the Navbar */
   
 }
@@ -32,7 +28,7 @@
 }
 
 .nav-logopng {
-  height: 90px; /* Adjust this value to fit your desired size */
+  height: 80px; /* Adjust this value to fit your desired size */
 }
 
 .nav-item {
@@ -71,10 +67,36 @@
   display: none;
 }
 
+@media screen and (max-width: 1650px) {
+  .Navbar {
+    font-size: 1.5rem;
+  }
+}
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1400px) {
+  .Navbar {
+    font-size: 1.25rem;
+  }
+}
+
+@media screen and (max-width: 1276px) {
+  .Navbar {
+    font-size: 1rem;
+  }
+}
+
+
+
+
+@media screen and (max-width: 1149px) {
+
+  .Navbar {
+    font-size: 2rem;
+  }
+
   .nav-container {
-    text-align: center; /* Center the logo on small screens */
+    align-items:center; /* Center the child elements vertically */
+    
   }
 
   .nav-menu {
@@ -84,7 +106,7 @@
     width: 100%;
     position: fixed;
     top: -100px;
-    bottom: -20px;
+    bottom: -125px;
     left: -200%;
     opacity: 1;
     z-index: 1;
@@ -110,14 +132,6 @@
     color: var(--Color5);
   }
 
-  .nav-links {
-    color: var(--Color1);
-    text-decoration: none;
-    padding-bottom: 40px;
-    padding-top: 40px; /* Adjust the padding to create space between nav items */
-    justify-content: center;
-    align-items: center;
-  }
 
   .nav-icon {
     display: block;

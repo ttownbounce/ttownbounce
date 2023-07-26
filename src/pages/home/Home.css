@@ -1,8 +1,9 @@
 .imageContainer {
-  height: 60vh; /* Set the desired height for the container */
+  height: 75vh; /* Set the desired height for the container */
   position: relative; /* Optional, but useful for positioning the image inside the container */
   display: flex;
   justify-content: center;
+  padding-top: 10px;
 }
 
 .imageContainer img {
@@ -17,7 +18,7 @@
   display: flex;
   justify-content: center;
   align-content: center;
-  font-family: "BLOBBYCHUG", sans-serif;
+  font-family: "FaseBulan", sans-serif;
   font-weight: bold;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -31,7 +32,7 @@
   max-width: 100%; /* Allow the bubble to take the full available width when the text wraps */
   word-wrap: break-word; /* Allow the text to wrap within the bubble */
   color: var(--Color3);
-  -webkit-text-stroke: 1px var(--Color1); /* Add an outline around the text characters */
+  /* -webkit-text-stroke: 1px var(--Color1); Add an outline around the text characters */
 }
 
 
@@ -43,13 +44,13 @@
   display: flex;
   justify-content: center;
   align-content: center;
-  font-family: "BLOBBYCHUG", sans-serif;
+  font-family: "FaseBulan", sans-serif;
   font-weight: bold;
   padding-top: 50px;
   padding-bottom: 50px;
   border-radius: 50px; /* Optionally, add border-radius to make the corners rounded */
   color: var(--Color3);
-  -webkit-text-stroke: 1px var(--Color1); /* Add an outline around the text characters */
+  /* -webkit-text-stroke: 1px var(--Color1); Add an outline around the text characters */
 }
 
 .headerTextContainer {
@@ -84,18 +85,6 @@
   min-height: 100vh;
 }
 
-@font-face {
-
-  font-family: "BubbleBobble"; /* Name the font family whatever you prefer */
-  src: url("../../fonts/BubbleBobble-rg3rx.ttf") format("truetype");
-
-  font-family: "BLOBBYCHUG"; /* Name the font family whatever you prefer */
-  src: url("../../fonts/BLOBBYCHUG-Bold.ttf") format("truetype");
-}
-
-/* src: url("../../../TextFonts/Double_Bubble_shadow.otf") format("opentype"); */
-/* src: url("../../../TextFonts/RubikBubbles-Regular.ttf") format("truetype"); */
-
 .mostPopular {
   display: flex;
   justify-content: center;
@@ -108,10 +97,11 @@
   padding: 1%;
 }
 
-
-
-
-
+@media screen and (max-width: 1100px) {
+  .imageContainer {
+    height: 50vh;
+  }
+}
 
 @media screen and (max-width: 960px) {
   .mostPopular img {
@@ -119,11 +109,6 @@
     height: auto;
   }
 }
-
-
-
-
-
 
 
 @media screen and (max-width: 768px) {
@@ -174,8 +159,11 @@
   }
 }
 
-@media screen and (max-width: 310px) {
-
+@media screen and (max-width: 460px) {
+  .imageContainer {
+    padding-top: 20px;
+    height: 30vh;
+  }
   .bubbleWhite {
     font-size: 30px;
   }

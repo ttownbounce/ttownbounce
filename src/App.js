@@ -5,13 +5,16 @@ import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
-import Navbar from "./components/Navbar"
-import Footer from "./components/Footer";
+import Navbar from "./components/navbar/Navbar"
+import Footer from "./components/footer/Footer";
 
-import HomePage from "./pages/HomePage";
-import RI from "./pages/RI";
-import ContactUs from "./pages/ContactUs";
-import RentalDetails from "./pages/RentalDetails"; // Import the RentalDetails component
+import HomePage from "./pages/home/Home";
+import Bouncers from "./pages/bouncers/Bouncers";
+import CO from "./pages/co/CO";
+import IS from "./pages/is/IS";
+import DrySlides from "./pages/dryslides/DrySlides";
+import WaterInflatables from "./pages/waterinflatables/WaterInflatables";
+import ContactUs from "./pages/contactus/ContactUs";
 
 
 function ScrollToTop() {
@@ -32,9 +35,12 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/RI" element={<RI />} />
+          <Route path="/Bouncers" element={<Bouncers />} />
+          <Route path="/CO" element={<CO />} />
+          <Route path="/IS" element={<IS />} />
+          <Route path="/DrySlides" element={<DrySlides />} />
+          <Route path="/WaterInflatables" element={<WaterInflatables />} />
           <Route path="/Contact" element={<ContactUs />} />
-          <Route path="/rental/:id" element={<RentalDetails />} /> {/* New route for RentalDetails */}
         </Routes>
         <Footer />
       </Router>

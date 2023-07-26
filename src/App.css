@@ -5,11 +5,23 @@
     text-align: center;
 }
 
+@font-face {
+    font-family: "BLOBBYCHUG"; /* Name the font family whatever you prefer */
+    src: url("./fonts/BLOBBYCHUG-Bold.ttf") format("truetype");
+  
+  
+    font-family: "FaseBulan"; /* Name the font family whatever you prefer */
+    src: url("./fonts/FaseBulan-BW633.otf") format("opentype");
+  }
+
 :root {
+
+    font-family: 'FaseBulan', sans-serif; /* Use the font-family name you defined in @font-face */
+
     --Color1: #1e90ff;
     --Color2: #77d1fd;
 
-    --Color3: #66ff66;
+    --Color3: #FBAA01;
     --Color4: #cbffcc;
 
     --Color5: #FF0000;
