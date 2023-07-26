@@ -1,6 +1,7 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import CaroselImage from "./CarouselImage";
+import "./RotatingCarousel.css";
 
 function RotatingCarousel({ carouselData, onCardClick }) {
   return (
@@ -8,7 +9,7 @@ function RotatingCarousel({ carouselData, onCardClick }) {
       <div className="Carousel-Container">
         <Carousel>
           {carouselData.map((item, index) => (
-            <Carousel.Item key={index} interval={2000} onClick={() => onCardClick(item.id)}>
+            <Carousel.Item key={index} interval={2000}>
               <div className="Carousel-Image">
                 <CaroselImage image={item.image} />
               </div>

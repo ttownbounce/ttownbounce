@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import frog from "../images/ttb/F.png";
+import frog from "../../images/ttb/F.png";
 
 const TTBFooter = () => (
   <footer className="page-footer font-small FooterColor pt-4 fontfortext">
@@ -26,7 +26,9 @@ const TTBFooter = () => (
 
         <div className="col-md-3 mb-md-0 mb-3">
           <h5 className="text-uppercase redfortext">
+            <img src={frog} alt="Frog img" style={{ height: "1em" }} />
             Links
+            <img src={frog} alt="Frog img" style={{ height: "1em" }} />
           </h5>
           <ul className="list-unstyled">
             <li>

@@ -4,8 +4,7 @@ import { useEffect } from "react";
 import { NavLink } from "react-router-dom";
 
 import "./Navbar.css";
-import logopng from "../images/ttb/TTB.png";
-import logopng2 from "../images/ttb/FTTB.png";
+import logopng from "../../images/ttb/TTB.png";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -26,7 +25,6 @@ function Navbar() {
         <NavLink to="/" className="nav-logo">
           <div className="nav-logo">
             <img src={logopng} alt="TTB Icon" className="nav-logopng" />
-            <img src={logopng2} alt="TTB Icon" className="nav-logopng" />
           </div>
         </NavLink>
 
@@ -37,16 +35,45 @@ function Navbar() {
             </NavLink>
           </li>
 
+
+
           <li className="nav-item">
-            <NavLink to="/RI" className="nav-links" onClick={handleClick}>
-            Rentals/Inflatables
+            <NavLink to="/Bouncers" className="nav-links" onClick={handleClick}>
+            Bouncers
             </NavLink>
           </li>
+          <li className="nav-item">
+            <NavLink to="/CO" className="nav-links" onClick={handleClick}>
+            Combo/Obstacle
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink to="/IS" className="nav-links" onClick={handleClick}>
+            Interactive/Sports
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink to="/DrySlides" className="nav-links" onClick={handleClick}>
+            Dry Slides
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink to="/WaterInflatables" className="nav-links" onClick={handleClick}>
+            Water Infaltables
+            </NavLink>
+          </li>
+
+
+
+
           <li className="nav-item">
             <NavLink to="/Contact" className="nav-links" onClick={handleClick}>
             Contact Us
             </NavLink>
           </li>
+
+
+
         </ul>
         <div className="nav-icon" onClick={handleClick}>
           <i className={click ? "fas fa-times" : "fas fa-bars"}></i>

@@ -1,0 +1,23 @@
+.FooterColor {
+    background-color: var(--Color3);
+}
+
+
+.fontfortext {
+  font-family: "FaseBulan", sans-serif;
+}
+
+.bluefortext{
+    color: var(--Color1);
+}
+
+.redfortext {
+    color: var(--Color5);
+    font-weight: bold;
+}
+
+
+.textFontSize {
+  font-size: 20px;
+}
+

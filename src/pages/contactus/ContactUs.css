@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     align-content: center;
-    font-family: "BLOBBYCHUG", sans-serif;
+    font-family: "FaseBulan", sans-serif;
     font-weight: bold;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -18,7 +18,6 @@
     max-width: 100%; /* Allow the bubble to take the full available width when the text wraps */
     word-wrap: break-word; /* Allow the text to wrap within the bubble */
     color: var(--Color3);
-    -webkit-text-stroke: 1px var(--Color1); /* Add an outline around the text characters */
   }
   
   
@@ -29,12 +28,12 @@
     display: flex;
     justify-content: center;
     align-content: center;
-    font-family: "BLOBBYCHUG", sans-serif;
+    font-family: "FaseBulan", sans-serif;
     font-weight: bold;
     padding-top: 50px;
     padding-bottom: 50px;
     border-radius: 50px; /* Optionally, add border-radius to make the corners rounded */
-    -webkit-text-stroke: 2px black; /* Add an outline around the text characters */
+    /* -webkit-text-stroke: 2px black; Add an outline around the text characters */
   }
   
   .cuheaderTextContainer {
@@ -74,21 +73,9 @@
     font-size: 40px; /* Set the font size */
     font-weight: bold; /* Set the font weight */
 
-    font-family: "BLOBBYCHUG", sans-serif;
+    font-family: "FaseBulan", sans-serif;
     
   }
-  
-  @font-face {
-
-    font-family: "BubbleBobble"; /* Name the font family whatever you prefer */
-    src: url("../../fonts/BubbleBobble-rg3rx.ttf") format("truetype");
-  
-    font-family: "BLOBBYCHUG"; /* Name the font family whatever you prefer */
-    src: url("../../fonts/BLOBBYCHUG-Bold.ttf") format("truetype");
-  }
-  /* src: url("../../../TextFonts/Double_Bubble_shadow.otf") format("opentype"); */
-  /* src: url("../../../TextFonts/RubikBubbles-Regular.ttf") format("truetype"); */
-  
   .mostPopular {
     display: flex;
     justify-content: center;
@@ -123,36 +110,20 @@
   
     .cuheaderText {
   
-      padding-top: 50px;
-      padding-bottom: 0px;
+      padding-top: 10px;
+      padding-bottom: 10px;
     
     
       font-size: 30px; /* Set the font size */
 
 
-      font-family: "BubbleBobble", sans-serif;
+      font-family: "FaseBulan", sans-serif;
     }
 
-
   
-    .cuheaderTextContainer {
-      padding-top: 0px;
-      padding-bottom: 0px;
-  
-    }
-  
-    .cubodyText {
-      padding-top: 20px;
-      padding-bottom: 20px;
-
-      font-size: 30px;
-
-
-      font-family: "BubbleBobble", sans-serif;
-    }
   
     .cubodyContainer {
-      padding-top: 0px;
+      padding-top: 100px;
       padding-bottom: 0px;
     }
 
@@ -161,7 +132,7 @@
         font-weight: bold; /* Set the font weight */
 
 
-        font-family: "BubbleBobble", sans-serif;
+        font-family: "FaseBulan", sans-serif;
       }
   }
   
