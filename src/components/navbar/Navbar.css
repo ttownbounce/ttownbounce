@@ -92,10 +92,14 @@
 
   .Navbar {
     font-size: 2rem;
+    
   }
 
   .nav-container {
-    align-items:center; /* Center the child elements vertically */
+    height: 80px;
+    display: flex;
+  justify-content: space-between; /* Center the child elements horizontally */
+  align-items:center; /* Center the child elements vertically */
     
   }
 
@@ -146,5 +150,9 @@
 
   .no-scroll {
     overflow: hidden;
+  }
+
+  .nav-logopng {
+    height: 60px; /* Adjust this value to fit your desired size */
   }
 }

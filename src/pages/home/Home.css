@@ -81,9 +81,6 @@
   word-wrap: break-word; /* Allow the text to wrap within the bubble */
 }
 
-.page {
-  min-height: 100vh;
-}
 
 .mostPopular {
   display: flex;

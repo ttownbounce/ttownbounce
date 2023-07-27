@@ -64,9 +64,6 @@
     
   }
   
-  .page {
-    min-height: 100vh;
-  }
 
   .infoText {
     color: var(--Color1); /* Set the text color for better contrast */

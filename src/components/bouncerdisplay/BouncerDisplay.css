@@ -1,0 +1,60 @@
+.card-display {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Allow images to wrap into a column */
+  }
+
+
+
+
+  .card-item {
+    padding: 25px;
+  }
+
+
+.card-image {
+    width: 400px;
+    height: auto;
+    border: 1px solid var(--Color3);
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 20px;
+
+
+}
+
+.card-caption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto; /* Set the height for the caption (adjust as needed) */
+    background-color: var(--Color3);/* Add a semi-transparent background to make the text more readable */
+    color: var(--Color1); /* Set the text color to white */
+    padding: 10px; /* Add some padding to the caption for better aesthetics */
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
+
+  @media screen and (max-width: 960px) {
+    .card-display img {
+      flex-basis: 51%;
+      height: auto;
+    }
+    
+    .card-image {
+
+    width: 300px;
+
+    }
+    
+    .card-caption {
+        
+    }
+  }

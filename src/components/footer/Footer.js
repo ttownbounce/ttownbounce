@@ -3,10 +3,11 @@ import "./Footer.css";
 import frog from "../../images/ttb/F.png";
 
 const TTBFooter = () => (
-  <footer className="page-footer font-small FooterColor pt-4 fontfortext">
+  <div className="paddingfortop">
+  <footer className="page-footer font-small FooterColor pt-4">
     <div className="container-fluid text-center text-md-left">
       <div className="row">
-        <div className="col-md-6 mt-md-0 mt-3">
+        <div className="col-md-6 mt-md-0 mt-3 ">
           <h5 className="text-uppercase redfortext">
             <img src={frog} alt="Frog img" style={{ height: "1em" }} />
             T-Town Bounce
@@ -92,6 +93,7 @@ const TTBFooter = () => (
       <img src={frog} alt="Frog img" style={{ height: "1em" }} />
     </div>
   </footer>
+  </div>
 );
 
 export default TTBFooter;

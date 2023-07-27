@@ -29,5 +29,9 @@
     
   }
 
+  .page {
+    min-height: 65vh;
+}
+
 
   /* first green #32ff5e */
