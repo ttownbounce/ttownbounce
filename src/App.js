@@ -16,6 +16,8 @@ import DrySlides from "./pages/dryslides/DrySlides";
 import WaterInflatables from "./pages/waterinflatables/WaterInflatables";
 import ContactUs from "./pages/contactus/ContactUs";
 
+import ItemDetail from "./components/itemdetail/ItemDetail"
+
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -41,6 +43,9 @@ function App() {
           <Route path="/DrySlides" element={<DrySlides />} />
           <Route path="/WaterInflatables" element={<WaterInflatables />} />
           <Route path="/Contact" element={<ContactUs />} />
+
+          <Route path="/Item/:id" element={<ItemDetail />} />
+          
         </Routes>
         <Footer />
       </Router>

@@ -1,0 +1,42 @@
+
+
+
+
+
+
+
+
+
+
+.FullWidthCCI {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .Carousel-ContainerI {
+    width: 30%;
+    border: 1px solid var(--Color3);
+    overflow: hidden;
+  }
+  
+  .Carousel-ImageI {
+    width: 100%;
+    height: auto;
+  }
+
+  @media screen and (max-width: 1500px) {
+    .Carousel-ContainerI {
+        width: 40%;
+      }
+  }
+  
+  @media screen and (max-width: 950px) {
+    .Carousel-ContainerI {
+        width: 50%;
+      }
+  }
+  @media screen and (max-width: 400px) {
+    .Carousel-ContainerI {
+        width: 60%;
+      }
+  }

@@ -81,15 +81,7 @@
   word-wrap: break-word; /* Allow the text to wrap within the bubble */
 }
 
-.page {
-  min-height: 100vh;
-}
 
-.mostPopular {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap; /* Allow images to wrap into a column */
-}
 
 .numberImages {
   width: 300px;
@@ -97,7 +89,7 @@
   padding: 1%;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1260px) {
   .imageContainer {
     height: 50vh;
   }
@@ -111,7 +103,7 @@
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 830px) {
 
   .imageContainer {
     height: 35vh;
