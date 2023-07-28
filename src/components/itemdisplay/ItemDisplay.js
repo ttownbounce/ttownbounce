@@ -1,26 +1,29 @@
 import React from "react";
-import "./BouncerDisplay.css"
+import "./ItemDisplay.css"
+import { Link } from "react-router-dom";
 
-function BouncerDisplay({ bouncerData }) {
+function ItemDisplay({ itemData }) {
 
   return (
     <div className="card-display page">
-        {bouncerData.map((item) => (
-          <div key={item.id} className="card-item"> {/* Use a unique key */}
+      {itemData.map((item) => (
+        <div key={item.id} className="card-item">
+        <Link style={{ textDecoration: "none" }} to={`/Item/${item.id}`}> {/* Pass item.id as URL parameter */}
             <div className="card-image">
-              <img src={item.image} alt= {item.title + " image"} /> {/* Use the correct component name */}
+              <img src={item.images[0]} alt={item.title + " image"} />
             </div>
-            <div className="card-caption">
-              <h3>{item.title}</h3>
-              <p>${item.price}</p>
-            </div>
+          <div className="card-caption">
+            <h3>{item.title}</h3>
+            <p>${item.price}</p>
           </div>
-        ))}
+        </Link>
+        </div>
+      ))}
     </div>
   );
 }
 
-export default BouncerDisplay;
+export default ItemDisplay;
 
 
 // return (

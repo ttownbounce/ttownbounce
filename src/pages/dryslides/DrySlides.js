@@ -1,7 +1,8 @@
 import "./DrySlides.css";
 import React from "react";
 import BackgroundFade from "../../components/backgroundfade/BackgroundFade";
-import BouncerDisplay from "../../components/bouncerdisplay/BouncerDisplay";
+import ItemDisplay from "../../components/itemdisplay/ItemDisplay";
+import CheckAndSaveItems from "../../dataHandler/checkandsaveitems/CheckAndSaveItems";
 
 
 import tempCarousel1 from "../../images/tempcarousel/image1.png";
@@ -12,29 +13,31 @@ function DrySlides() {
 
   const slideData = [
     {
-      id: 1,
-      image: tempCarousel1,
-      title: "DrySlides",
+      id: 19,
+      images: [tempCarousel1, tempCarousel2, tempCarousel3],
+      title: "DrySlides1",
       price: 500
     },
     {
-      id: 2,
-      image: tempCarousel2,
-      title: "DrySlides",
+      id: 20,
+      images: [tempCarousel1, tempCarousel2, tempCarousel3],
+      title: "DrySlides2",
       price: 450
     },
     {
-      id: 3,
-      image: tempCarousel3,
-      title: "DrySlides",
+      id: 21,
+      images: [tempCarousel1, tempCarousel2, tempCarousel3],
+      title: "DrySlides3",
       price: 300
     },
   ];
 
+  CheckAndSaveItems(slideData);
+
 
   return (
     <div >
-        <BouncerDisplay bouncerData={slideData}/>
+        <ItemDisplay itemData={slideData}/>
         <BackgroundFade />
     </div>
   );

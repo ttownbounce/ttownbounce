@@ -1,7 +1,8 @@
 import "./CO.css";
 import React from "react";
 import BackgroundFade from "../../components/backgroundfade/BackgroundFade";
-import BouncerDisplay from "../../components/bouncerdisplay/BouncerDisplay";
+import ItemDisplay from "../../components/itemdisplay/ItemDisplay";
+import CheckAndSaveItems from "../../dataHandler/checkandsaveitems/CheckAndSaveItems";
 
 
 import tempCarousel1 from "../../images/tempcarousel/image1.png";
@@ -12,29 +13,31 @@ function CO() {
 
   const coData = [
     {
-      id: 1,
-      image: tempCarousel1,
-      title: "CO",
+      id: 16,
+      images: [tempCarousel1, tempCarousel2, tempCarousel3],
+      title: "CO1",
       price: 500
     },
     {
-      id: 2,
-      image: tempCarousel2,
-      title: "CO",
+      id: 17,
+      images: [tempCarousel1, tempCarousel2, tempCarousel3],
+      title: "CO2",
       price: 450
     },
     {
-      id: 3,
-      image: tempCarousel3,
-      title: "CO",
+      id: 18,
+      images: [tempCarousel1, tempCarousel2, tempCarousel3],
+      title: "CO3",
       price: 300
     },
   ];
 
+  CheckAndSaveItems(coData);
+
 
   return (
     <div >
-        <BouncerDisplay bouncerData={coData}/>
+        <ItemDisplay itemData={coData}/>
         <BackgroundFade />
     </div>
   );

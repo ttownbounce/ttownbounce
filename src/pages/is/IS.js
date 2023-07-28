@@ -1,7 +1,9 @@
 import "./IS.css";
 import React from "react";
 import BackgroundFade from "../../components/backgroundfade/BackgroundFade";
-import BouncerDisplay from "../../components/bouncerdisplay/BouncerDisplay";
+import ItemDisplay from "../../components/itemdisplay/ItemDisplay";
+
+import CheckAndSaveItems from "../../dataHandler/checkandsaveitems/CheckAndSaveItems";
 
 
 import tempCarousel1 from "../../images/tempcarousel/image1.png";
@@ -12,29 +14,32 @@ function IS() {
 
   const isData = [
     {
-      id: 1,
-      image: tempCarousel1,
-      title: "IS",
+      id: 22,
+      images: [tempCarousel1, tempCarousel2, tempCarousel3],
+      title: "IS1",
       price: 500
     },
     {
-      id: 2,
-      image: tempCarousel2,
-      title: "IS",
+      id: 23,
+      images: [tempCarousel1, tempCarousel2, tempCarousel3],
+      title: "IS2",
       price: 450
     },
     {
-      id: 3,
-      image: tempCarousel3,
-      title: "IS",
+      id: 24,
+      images: [tempCarousel1, tempCarousel2, tempCarousel3],
+      title: "IS3",
       price: 300
     },
   ];
 
 
+  CheckAndSaveItems(isData);
+
+
   return (
     <div >
-        <BouncerDisplay bouncerData={isData}/>
+        <ItemDisplay itemData={isData}/>
         <BackgroundFade />
     </div>
   );
