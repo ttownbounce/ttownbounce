@@ -2,23 +2,15 @@
     background-color: var(--Color3);
 }
 
-
-.fontfortext {
-  font-family: "FaseBulan", sans-serif;
-}
-
 .bluefortext{
+  font-family: "FaseBulan", sans-serif;
     color: var(--Color1);
 }
 
 .redfortext {
+  font-family: "FaseBulan", sans-serif;
     color: var(--Color5);
     font-weight: bold;
-}
-
-
-.textFontSize {
-  font-size: 20px;
 }
 
 .paddingfortop{
@@ -26,6 +18,31 @@
 }
 
 
+.titleFontSize {
+  font-size: 40px;
+}
+.bodyFontSize {
+  font-size: 30px;
+}
+.linksFontSize {
+  font-size: 30px;
+}
+
+
+
+
+@media screen and (max-width: 960px) {
+  
+  .titleFontSize {
+    font-size: 30px;
+  }
+  .bodyFontSize {
+    font-size: 20px;
+  }
+  .linksFontSize {
+    font-size: 20px;
+  }
+}
 
 
 

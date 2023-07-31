@@ -1,6 +1,13 @@
 
 
+.carousel-control-prev {
+  color: var(--Color1); /* Set the color to the value of --Color1 */
+}
 
+/* Right Arrow */
+.carousel-control-next {
+  color: var(--Color1); /* Set the color to the value of --Color1 */
+} 
 
 
 

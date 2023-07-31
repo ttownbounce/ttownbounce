@@ -8,7 +8,10 @@ import CheckAndSaveItems from "../../dataHandler/checkandsaveitems/CheckAndSaveI
 
 import tempCarousel1 from "../../images/tempcarousel/image1.png";
 import tempCarousel2 from "../../images/tempcarousel/image2.png";
-import tempCarousel3 from "../../images/tempcarousel/image 3.png";
+import tempCarousel3 from "../../images/tempcarousel/image3.png";
+import tempCarousel4 from "../../images/tempcarousel/image4.png";
+import tempCarousel5 from "../../images/tempcarousel/image5.png";
+import tempCarousel6 from "../../images/tempcarousel/image6.png";
 
 function Bouncers() {
   
@@ -16,87 +19,87 @@ function Bouncers() {
   const bouncersData = useMemo(() => [
     {
       id: 1,
-      images: [tempCarousel1, tempCarousel2, tempCarousel3],
+      images: [tempCarousel1, tempCarousel2, tempCarousel3,tempCarousel4,tempCarousel5,tempCarousel6],
       title: "Bouncers1",
       price: 500
     },
     {
       id: 2,
-      images: [tempCarousel1, tempCarousel2, tempCarousel3],
+      images: [tempCarousel1, tempCarousel2, tempCarousel3,tempCarousel4,tempCarousel5,tempCarousel6],
       title: "Bouncers2",
       price: 450
     },
     {
       id: 3,
-      images: [tempCarousel1, tempCarousel2, tempCarousel3],
+      images: [tempCarousel1, tempCarousel2, tempCarousel3,tempCarousel4,tempCarousel5,tempCarousel6],
       title: "Bouncers3",
       price: 300
     },{
       id: 4,
-      images: [tempCarousel1, tempCarousel2, tempCarousel3],
+      images: [tempCarousel1, tempCarousel2, tempCarousel3,tempCarousel4,tempCarousel5,tempCarousel6],
       title: "Bouncers4",
       price: 500
     },
     {
       id: 5,
-      images: [tempCarousel1, tempCarousel2, tempCarousel3],
+      images: [tempCarousel1, tempCarousel2, tempCarousel3,tempCarousel4,tempCarousel5,tempCarousel6],
       title: "Bouncers5",
       price: 450
     },
     {
       id: 6,
-      images: [tempCarousel1, tempCarousel2, tempCarousel3],
+      images: [tempCarousel1, tempCarousel2, tempCarousel3,tempCarousel4,tempCarousel5,tempCarousel6],
       title: "Bouncers6",
       price: 300
     },{
       id: 7,
-      images: [tempCarousel1, tempCarousel2, tempCarousel3],
+      images: [tempCarousel1, tempCarousel2, tempCarousel3,tempCarousel4,tempCarousel5,tempCarousel6],
       title: "Bouncers7",
       price: 500
     },
     {
       id: 8,
-      images: [tempCarousel1, tempCarousel2, tempCarousel3],
+      images: [tempCarousel1, tempCarousel2, tempCarousel3,tempCarousel4,tempCarousel5,tempCarousel6],
       title: "Bouncers8",
       price: 450
     },
     {
       id: 9,
-      images: [tempCarousel1, tempCarousel2, tempCarousel3],
+      images: [tempCarousel1, tempCarousel2, tempCarousel3,tempCarousel4,tempCarousel5,tempCarousel6],
       title: "Bouncers9",
       price: 300
     },{
       id: 10,
-      images: [tempCarousel1, tempCarousel2, tempCarousel3],
+      images: [tempCarousel1, tempCarousel2, tempCarousel3,tempCarousel4,tempCarousel5,tempCarousel6],
       title: "Bouncers10",
       price: 500
     },
     {
       id: 11,
-      images: [tempCarousel1, tempCarousel2, tempCarousel3],
+      images: [tempCarousel1, tempCarousel2, tempCarousel3,tempCarousel4,tempCarousel5,tempCarousel6],
       title: "Bouncers11",
       price: 450
     },
     {
       id: 12,
-      images: [tempCarousel1, tempCarousel2, tempCarousel3],
+      images: [tempCarousel1, tempCarousel2, tempCarousel3,tempCarousel4,tempCarousel5,tempCarousel6],
       title: "Bouncers12",
       price: 300
     },{
       id: 13,
-      images: [tempCarousel1, tempCarousel2, tempCarousel3],
+      images: [tempCarousel1, tempCarousel2, tempCarousel3,tempCarousel4,tempCarousel5,tempCarousel6],
       title: "Bouncers13",
       price: 500
     },
     {
       id: 14,
-      images: [tempCarousel1, tempCarousel2, tempCarousel3],
+      images: [tempCarousel1, tempCarousel2, tempCarousel3,tempCarousel4,tempCarousel5,tempCarousel6],
       title: "Bouncers14",
       price: 450
     },
     {
       id: 15,
-      images: [tempCarousel1, tempCarousel2, tempCarousel3],
+      images: [tempCarousel1, tempCarousel2, tempCarousel3,tempCarousel4,tempCarousel5,tempCarousel6],
       title: "Bouncers15",
       price: 300
     },

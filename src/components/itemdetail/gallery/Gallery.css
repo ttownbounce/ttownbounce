@@ -1,0 +1,41 @@
+.gallery-display {
+  display: flex;
+  justify-content: center;
+}
+
+.gallery-item {
+  padding: 10px;
+  min-width: 30%;
+  max-width: 90%;
+}
+
+.gallery-big img {
+  width: 100%;
+  height: auto;
+  border: 5px solid var(--Color3);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.gallery-small {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  overflow-x: scroll; /* Enable horizontal scrolling for small screens */
+  scroll-snap-type: x mandatory; /* Enable snapping behavior for the images */
+}
+
+.gallery-small img {
+  flex: 0 0 auto;
+  height: 100px;
+  margin-right: 20px;
+  border: 5px solid var(--Color1);
+  scroll-snap-align: center; /* Center the images after scrolling */
+}
+
+@media screen and (max-width: 960px) {
+  /* Add responsive styles if needed */
+}
