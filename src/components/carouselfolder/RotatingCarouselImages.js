@@ -9,9 +9,9 @@ function RotatingCarouselImages({ imageData }) {
   return (
             <div className="FullWidthCCI">
               <div className="Carousel-ContainerI">
-                <Carousel>
+                <Carousel interval={750}>
                     {imageData.images.map((image, imageIndex) => (
-                        <Carousel.Item key={imageIndex} interval={2000}>
+                        <Carousel.Item key={imageIndex}>
                         <div >
                             <img className="Carousel-ImageI" src={image} alt={`Carousel pic ${imageIndex}`} />
                         </div>

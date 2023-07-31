@@ -13,8 +13,9 @@ function ItemDisplay({ itemData }) {
               <img src={item.images[0]} alt={item.title + " image"} />
             </div>
           <div className="card-caption">
-            <h3>{item.title}</h3>
-            <p>${item.price}</p>
+            <p className="card-title">{item.title}</p>
+            <p className="card-price">${item.price}</p>
+            <p className="card-clickme">Click Me!</p>
           </div>
         </Link>
         </div>

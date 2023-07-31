@@ -3,32 +3,40 @@ function CheckAndSaveItems(newItemData) {
 
   if (existingDataJSON) {
     const existingData = JSON.parse(existingDataJSON);
-    //console.log(existingData + " is the existingData");
-
+    
+    // Check if any existing data has expired and remove it
+    const now = new Date().getTime();
+    const updatedData = existingData.filter(item => item.expiry > now);
+    
     newItemData.forEach((newItem) => {
-      const itemExists = existingData.find(
+      const itemExists = updatedData.find(
         (item) => item.id?.toString() === newItem.id?.toString()
       );
-      //console.log(itemExists + " is the item that was found");
 
       if (itemExists === undefined) {
-        //console.log(existingData + " before the push");
-        //Array.prototype.push.apply(existingData,newItemData);
-        existingData.push(newItem);
-        //console.log(existingData + " after the push");
-      } 
-      else {
-        //console.log(newItem.id + " ID already exists in local storage!");
+        // Add a new item with an expiration time of 10 minutes
+        const newItemWithExpiry = {
+          ...newItem,
+          expiry: now + (10 * 60 * 1000), // 10 minutes in milliseconds
+        };
+        updatedData.push(newItemWithExpiry);
+      } else {
+        // Item exists, do nothing or update as needed
       }
     });
 
-    const updatedDataJSON = JSON.stringify(existingData);
+    const updatedDataJSON = JSON.stringify(updatedData);
     localStorage.setItem("itemData", updatedDataJSON);
-    //console.log("Items saved!!");
-  } 
-  else {
-    const updatedDataJSON = JSON.stringify(newItemData);
+  } else {
+    // Add new items with expiration time to local storage
+    const now = new Date().getTime();
+    const itemsWithExpiry = newItemData.map(item => ({
+      ...item,
+      expiry: now + (720 * 60 * 1000), // 12 hour in milliseconds
+    }));
+    const updatedDataJSON = JSON.stringify(itemsWithExpiry);
     localStorage.setItem("itemData", updatedDataJSON);
   }
 }
+
 export default CheckAndSaveItems;

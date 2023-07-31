@@ -2,7 +2,9 @@ import React from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import GetItemById from "../../dataHandler/getitem/GetItemById"
 import BackgroundFade from "../backgroundfade/BackgroundFade";
-import RotatingCarouselImages from "../carouselfolder/RotatingCarouselImages";
+// import RotatingCarouselImages from "../carouselfolder/RotatingCarouselImages";
+import Gallery from "./gallery/Gallery";
+import "./ItemDetail.css"
 
 function ItemDetail() {
   
@@ -27,15 +29,27 @@ function ItemDetail() {
   return ( 
     <div>
       <div className="page">
-        <h1>{item.id} Is the Item ID</h1>
-        <h2>{item.title}</h2>
-        <RotatingCarouselImages imageData = {item} />
-        <h1 style={{ color: "white" }}>${item.price}</h1>
-        <button onClick={handleGoBack}>Go Back</button>
+      <div className="buttonRow">
+        <button onClick={handleGoBack} className="btn btn-primary IDbackbutton">
+          <div className="iconAndTextWrapper">
+            <i className="fas fa-arrow-left mr-2"></i>
+            <span class="backText">Back</span>
+          </div>
+        </button>
+      </div>
+      <div className="IDbodyContainer">
+      <h1 className="IDheaderText IDbubbleWhite">{item.title}</h1>
+      </div>
+        <Gallery imageData = {item} />
+        <div className="IDbodyContainer">
+      <h1 className="IDinfoText IDbubbleWhite ">${item.price}</h1>
+      </div>
+        
       </div>
       <BackgroundFade />
     </div>
   );
 }
 
+// <RotatingCarouselImages imageData = {item} />
 export default ItemDetail;

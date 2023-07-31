@@ -9,17 +9,18 @@ function RotatingCarouselLink({ carouselData }) {
   return (
             <div className="FullWidthCC">
               <div className="Carousel-Container">
-                <Carousel>
+                <Carousel  interval={2000}>
                   {carouselData.map((item, index) => (
-                    <Carousel.Item key={index} interval={2000}>
+                    <Carousel.Item key={index}>
                       <div className="Carousel-Image">
                             <Link to={`/Item/${item.id}`}>
                               <img src={item.images[0]} alt="Carousel pic" />
                             </Link>
                       </div>
                       <div className="Carousel-Caption">
-                        <h3>{item.title}</h3>
-                        <p>${item.price}</p>
+                        <p className="Carousel-title">{item.title}</p>
+                        <p className="Carousel-price">${item.price}</p>
+                        <p className="Carousel-clickme">Click The Image!</p>
                       </div>
                     </Carousel.Item>
                   ))}

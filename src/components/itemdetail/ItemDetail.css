@@ -1,0 +1,170 @@
+.buttonRow {
+  display: flex;
+  align-items: center;
+  padding-top: 1%;
+  padding-left: 2%;
+}
+
+.IDbackbutton {
+  cursor: pointer;
+  padding: 5px;
+  background-color: var(--Color1);
+  outline: black;
+  border: 2.5px solid white;
+  border-radius: 50rem;
+
+  /* Use flexbox to align content */
+  display: flex;
+  align-items: center;
+}
+
+.iconAndTextWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.iconAndTextWrapper i {
+  font-size: 2em;
+}
+
+.iconAndTextWrapper .backText {
+  font-size: 2em; /* Set the font size for the text only */
+}
+
+
+
+
+
+
+
+.IDheaderText {
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: "FaseBulan", sans-serif;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  
+  
+    font-size: 60px; /* Set the font size */
+    font-weight: bold; /* Set the font weight */
+    line-height: 1.5; /* Optional: Adjust line height for better text spacing */
+    padding: 10px 20px; /* Add padding to create space between text and border */
+    display: inline-block; /* Make the bubble take up only as much width as needed */
+    max-width: 100%; /* Allow the bubble to take the full available width when the text wraps */
+    word-wrap: break-word; /* Allow the text to wrap within the bubble */
+    color: var(--Color3);
+  }
+  
+  
+  
+  .IDbodyText {
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: "FaseBulan", sans-serif;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 50px; /* Optionally, add border-radius to make the corners rounded */
+    /* -webkit-text-stroke: 2px black; Add an outline around the text characters */
+  }
+  
+  
+  .IDbodyContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* padding-top: 50px;
+  padding-bottom: 25px; */
+}
+
+  
+  
+  .IDbubbleWhite {
+    background-color: var(--Color6); /* Replace with your desired background color */
+    border-radius: 50px; /* Adjust this value to control the roundness of the bubble */
+    line-height: 1.5; /* Optional: Adjust line height for better text spacing */
+    padding: 10px 20px; /* Add padding to create space between text and border */
+    display: inline-block; /* Make the bubble take up only as much width as needed */
+    max-width: fit-content; /* Allow the bubble to shrink to fit the content */
+    word-wrap: break-word; /* Allow the text to wrap within the bubble */
+    
+  }
+  
+
+  .IDinfoText {
+    color: var(--Color1); /* Set the text color for better contrast */
+    font-size: 40px; /* Set the font size */
+    font-weight: bold; /* Set the font weight */
+
+    font-family: "FaseBulan", sans-serif;
+    
+  }
+
+
+  @media (max-width: 900px) {
+    .buttonRow {
+      padding-top: 2%;
+      padding-bottom: 2.5%;
+    }
+    .iconAndTextWrapper i {
+      font-size: 1.5em; /* Reduce the font size for the icon at smaller screen sizes */
+    }
+  
+    .iconAndTextWrapper .backText {
+      font-size: 1.5em; /* Reduce the font size for the text at smaller screen sizes */
+    }
+  }
+  
+
+
+  
+  
+  @media screen and (max-width: 768px) {
+  
+    .IDheaderText {
+  
+      padding-top: 10px;
+      padding-bottom: 10px;
+    
+    
+      font-size: 30px; /* Set the font size */
+
+
+      font-family: "FaseBulan", sans-serif;
+    }
+
+
+    .IDinfoText {
+        font-size: 20px; /* Set the font size */
+        font-weight: bold; /* Set the font weight */
+
+
+        font-family: "FaseBulan", sans-serif;
+      }
+
+
+
+  }
+
+
+  @media (max-width: 500px) {
+
+    .buttonRow {
+      padding-top: 3%;
+      padding-bottom: 3%;
+    }
+    .iconAndTextWrapper i {
+      font-size: 1em; /* Reduce the font size for the icon at smaller screen sizes */
+    }
+  
+    .iconAndTextWrapper .backText {
+      font-size: 1em; /* Reduce the font size for the text at smaller screen sizes */
+    }
+  }
