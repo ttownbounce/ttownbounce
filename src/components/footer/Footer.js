@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import { NavLink } from "react-router-dom";
 import frog from "../../images/ttb/F.png";
 
 const TTBFooter = () => (
@@ -33,15 +34,15 @@ const TTBFooter = () => (
             </h5>
             <ul className="list-unstyled linksFontSize">
               <li>
-                <a href="/" className="bluefortext">
+                <NavLink to="/" className="bluefortext">
                   Home
-                </a>
+                </NavLink>
               </li>
 
               <li>
-                <a href="/Contact" className="bluefortext">
+                <NavLink to="/Contact" className="bluefortext">
                   Contact Us
-                </a>
+                </NavLink>
               </li>
             </ul>
           </div>
@@ -54,29 +55,29 @@ const TTBFooter = () => (
             </h5>
             <ul className="list-unstyled linksFontSize">
               <li>
-                <a href="/Bouncers" className="bluefortext">
+                <NavLink to="/Bouncers" className="bluefortext">
                   Bouncers
-                </a>
+                </NavLink>
               </li>
               <li>
-                <a href="/CO" className="bluefortext">
+                <NavLink to="/CO" className="bluefortext">
                   Combo/Obstacle
-                </a>
+                </NavLink>
               </li>
               <li>
-                <a href="/IS" className="bluefortext">
+                <NavLink to="/IS" className="bluefortext">
                   Interactive/Sports
-                </a>
+                </NavLink>
               </li>
               <li>
-                <a href="/DrySlides" className="bluefortext">
+                <NavLink to="/DrySlides" className="bluefortext">
                   Dry Slides
-                </a>
+                </NavLink>
               </li>
               <li>
-                <a href="/WaterInflatables" className="bluefortext">
+                <NavLink to="/WaterInflatables" className="bluefortext">
                   Water Inflatables
-                </a>
+                </NavLink>
               </li>
             </ul>
           </div>
