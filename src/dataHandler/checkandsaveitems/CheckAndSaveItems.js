@@ -8,7 +8,9 @@ function CheckAndSaveItems(newItemData) {
     const now = new Date().getTime();
     const updatedData = existingData.filter(item => item.expiry > now);
     
-    newItemData.forEach((newItem) => {
+    let itemAdded = false; // Flag to track if an item has been added
+
+    for (const newItem of newItemData) {
       const itemExists = updatedData.find(
         (item) => item.id?.toString() === newItem.id?.toString()
       );
@@ -17,16 +19,26 @@ function CheckAndSaveItems(newItemData) {
         // Add a new item with an expiration time of 10 minutes
         const newItemWithExpiry = {
           ...newItem,
-          expiry: now + (10 * 60 * 1000), // 10 minutes in milliseconds
+          expiry: now + (720 * 60 * 1000), // 10 minutes in milliseconds
         };
         updatedData.push(newItemWithExpiry);
+        itemAdded = true; // Set the flag to true as an item has been added
+        console.log(itemExists.id + " Was found not in the LS")
       } else {
-        // Item exists, do nothing or update as needed
+          console.log("An item has been found in the array before an item was added")
+          break;
+        
       }
-    });
+    }
 
-    const updatedDataJSON = JSON.stringify(updatedData);
-    localStorage.setItem("itemData", updatedDataJSON);
+    // If an item has been added, you can do something after the loop
+    if (itemAdded) {
+      const updatedDataJSON = JSON.stringify(updatedData);
+      localStorage.setItem("itemData", updatedDataJSON);
+      console.log("An array of items has been added after the check")
+    }
+
+  
   } else {
     // Add new items with expiration time to local storage
     const now = new Date().getTime();
@@ -36,6 +48,7 @@ function CheckAndSaveItems(newItemData) {
     }));
     const updatedDataJSON = JSON.stringify(itemsWithExpiry);
     localStorage.setItem("itemData", updatedDataJSON);
+    console.log("No data was in LS, so the data was added")
   }
 }
 

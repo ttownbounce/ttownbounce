@@ -9,11 +9,12 @@
 
   .card-item {
     padding: 25px;
+    width: 400px;
   }
 
 
-.card-image {
-    width: 400px;
+.card-image img{
+    width: 100%;
     height: auto;
     border: 1px solid var(--Color3);
     overflow: hidden;
@@ -28,15 +29,18 @@
 }
 
 .card-caption {
+  max-width: 100%;
     font-family: "FaseBulan", sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center; /* Add this to center the text horizontally */
     height: auto; /* Set the height for the caption (adjust as needed) */
     background-color: var(--Color3);/* Add a semi-transparent background to make the text more readable */
     color: var(--Color1); /* Set the text color to white */
     padding: 10px; /* Add some padding to the caption for better aesthetics */
+
 }
 
 .card-title{
@@ -64,7 +68,13 @@
     
     .card-image {
 
-    width: 300px;
+    width: 100%;
 
     }
+
+    .card-image img{
+
+      width: 100%;
+  
+      }
   }
