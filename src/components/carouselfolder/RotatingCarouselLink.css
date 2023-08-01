@@ -51,6 +51,7 @@
   background-color: var(--Color3);/* Add a semi-transparent background to make the text more readable */
   color: var(--Color1); /* Set the text color to white */
   padding: 10px; /* Add some padding to the caption for better aesthetics */
+  text-align: center; /* Add this to center the text horizontally */
 }
 
 .Carousel-title{
