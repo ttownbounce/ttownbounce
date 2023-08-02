@@ -57,6 +57,7 @@
     max-width: 100%; /* Allow the bubble to take the full available width when the text wraps */
     word-wrap: break-word; /* Allow the text to wrap within the bubble */
     color: var(--Color3);
+    
   }
   
   
@@ -82,6 +83,10 @@
   align-items: center;
   /* padding-top: 50px;
   padding-bottom: 25px; */
+
+  padding-left: 10px;
+
+  padding-right: 20px;
 }
 
   
@@ -94,6 +99,7 @@
     display: inline-block; /* Make the bubble take up only as much width as needed */
     max-width: fit-content; /* Allow the bubble to shrink to fit the content */
     word-wrap: break-word; /* Allow the text to wrap within the bubble */
+    text-align: center;
     
   }
   
