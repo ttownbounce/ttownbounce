@@ -1,25 +1,31 @@
+// import React from "react";
+// import { useParams, useNavigate } from "react-router-dom";
+// import GetItemById from "../../dataHandler/getitem/GetItemById"
+// import BackgroundFade from "../backgroundfade/BackgroundFade";
+// // import RotatingCarouselImages from "../carouselfolder/RotatingCarouselImages";
+
+// import React from "react";
+// import Gallery from "./gallery/Gallery";
+// import "./ItemDetail.css"
+
 import React from "react";
-import { useParams, useNavigate } from "react-router-dom";
-import GetItemById from "../../dataHandler/getitem/GetItemById"
 import BackgroundFade from "../backgroundfade/BackgroundFade";
-// import RotatingCarouselImages from "../carouselfolder/RotatingCarouselImages";
 import Gallery from "./gallery/Gallery";
-import "./ItemDetail.css"
+import "./ItemDetail.css";
+import { useNavigate, useLocation } from "react-router-dom";
+
 
 function ItemDetail() {
   
-  const { id } = useParams();
+  // const { id } = useParams();
   const navigate = useNavigate();
+  const { item } = useLocation().state;
 
-  //console.log("ID from URL:", id);
+  // //console.log("ID from URL:", id);
 
-  const item = GetItemById(id);
-  //console.log("Item from GetItemById:", item);
+  // const item = GetItemById(id);
+  // //console.log("Item from GetItemById:", item);
 
-  if (!item) {
-    console.log("Item not found!");
-    return <div>Item not found!</div>;
-  }
 
   const handleGoBack = () => {
     
@@ -33,7 +39,7 @@ function ItemDetail() {
         <button onClick={handleGoBack} className="btn btn-primary IDbackbutton">
           <div className="iconAndTextWrapper">
             <i className="fas fa-arrow-left mr-2"></i>
-            <span class="backText">Back</span>
+            <span className="backText">Back</span>
           </div>
         </button>
       </div>
