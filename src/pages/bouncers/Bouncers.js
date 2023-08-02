@@ -4,13 +4,11 @@ import BackgroundFade from "../../components/backgroundfade/BackgroundFade";
 import ItemDisplay from "../../components/itemdisplay/ItemDisplay";
 
 import BouncerData from "../../dataHandler/staticdata/bouncerdata/BouncerData";
-import CheckAndSaveItems from "../../dataHandler/checkandsaveitems/CheckAndSaveItems";
 
 
 function Bouncers() {
   
 
-  CheckAndSaveItems(BouncerData());
 
 
 

@@ -4,11 +4,9 @@ import BackgroundFade from "../../components/backgroundfade/BackgroundFade";
 import ItemDisplay from "../../components/itemdisplay/ItemDisplay";
 
 import WIData from "../../dataHandler/staticdata/widata/WIData";
-import CheckAndSaveItems from "../../dataHandler/checkandsaveitems/CheckAndSaveItems";
 
 function WaterInflatables() {
 
-CheckAndSaveItems(WIData());
 
   return (
     <div >

@@ -6,26 +6,11 @@ import BackgroundFade from "../../components/backgroundfade/BackgroundFade";
 import homeImage from "../../images/ttb/FTTBD.png"
 
 
-
-import BouncerData from "../../dataHandler/staticdata/bouncerdata/BouncerData";
-import COData from "../../dataHandler/staticdata/codata/COData";
-import ISData from "../../dataHandler/staticdata/isdata/ISData";
-import SlideData from "../../dataHandler/staticdata/slidedata/SlideData";
-import WIData from "../../dataHandler/staticdata/widata/WIData";
-
 import ItemDisplay from "../../components/itemdisplay/ItemDisplay";
-import CheckAndSaveItems from "../../dataHandler/checkandsaveitems/CheckAndSaveItems";
-import GetItemByID from "../../dataHandler/getitem/GetItemById"
-
-
+import GetItemById from "../../dataHandler/getitem/GetItemById"
 
 function Home() {
 
-  CheckAndSaveItems(BouncerData());
-  CheckAndSaveItems(COData());
-  CheckAndSaveItems(ISData());
-  CheckAndSaveItems(SlideData());
-  CheckAndSaveItems(WIData());
 
 
 
@@ -37,12 +22,12 @@ function Home() {
   const mostPopularIDS = [999,402,410]
 
   carouselIDS.forEach((number) => {
-    const item = GetItemByID(number.toString());
+    const item = GetItemById(number.toString());
     carouselData.push(item);
   });
 
   mostPopularIDS.forEach((number) => {
-    const item = GetItemByID(number.toString());
+    const item = GetItemById(number.toString());
     mostPopularData.push(item);
   });
 
