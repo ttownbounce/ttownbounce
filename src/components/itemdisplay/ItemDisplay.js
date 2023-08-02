@@ -13,7 +13,8 @@ function ItemDisplay({ itemData }) {
   return (
     <div className="card-display page">
       {itemData.map((item) => (
-        <div key={item.id} className="card-item" onClick={() => handleItemClick(item)}>
+        <div key={item.id} className="card-item">
+        <div onClick={() => handleItemClick(item)}>
           <div className="card-image">
             <img src={item.images[0]} alt={item.title + " image"} />
           </div>
@@ -21,6 +22,7 @@ function ItemDisplay({ itemData }) {
             <p className="card-title">{item.title}</p>
             <p className="card-price">${item.price}</p>
             <p className="card-clickme">Click Me!</p>
+          </div>
           </div>
         </div>
       ))}
