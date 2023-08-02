@@ -10,6 +10,7 @@ function CheckAndSaveItems(newItemData) {
     
     let itemAdded = false; // Flag to track if an item has been added
 
+
     for (const newItem of newItemData) {
       const itemExists = updatedData.find(
         (item) => item.id?.toString() === newItem.id?.toString()
@@ -23,9 +24,12 @@ function CheckAndSaveItems(newItemData) {
         };
         updatedData.push(newItemWithExpiry);
         itemAdded = true; // Set the flag to true as an item has been added
-        console.log(itemExists.id + " Was found not in the LS")
       } else {
+          console.log("*")
           console.log("An item has been found in the array before an item was added")
+          console.log("This means that the first item in the array has already been saved")
+          console.log("By default, there is no need to check the data anymore. It is already present")
+          console.log("*")
           break;
         
       }
