@@ -5,25 +5,42 @@ import tempCarousel4 from "../../../images/tempcarousel/image4.png";
 import tempCarousel5 from "../../../images/tempcarousel/image5.png";
 import tempCarousel6 from "../../../images/tempcarousel/image6.png";
 
+import IceCastleWet1 from "../../../images/rentals/wiimages/IceCastle-Wet/IceCastle-wet1.jpg"
+
+import TropicalWet1 from "../../../images/rentals/wiimages/Tropical-Wet/Tropical-Wet1.jpg"
+import TropicalWet2 from "../../../images/rentals/wiimages/Tropical-Wet/Tropical-Wet2.jpg"
+import TropicalWet3 from "../../../images/rentals/wiimages/Tropical-Wet/Tropical-Wet3.jpg"
+import TropicalWet4 from "../../../images/rentals/wiimages/Tropical-Wet/Tropical-Wet4.jpg"
+
+import MarbleCastleWet1 from "../../../images/rentals/wiimages/MarbleCastle-Wet/MarbleCastle-Wet1.jpg"
+import MarbleCastleWet2 from "../../../images/rentals/wiimages/MarbleCastle-Wet/MarbleCastle-Wet2.jpg"
+import MarbleCastleWet3 from "../../../images/rentals/wiimages/MarbleCastle-Wet/MarbleCastle-Wet3.jpg"
+import MarbleCastleWet4 from "../../../images/rentals/wiimages/MarbleCastle-Wet/MarbleCastle-Wet4.jpg"
+import MarbleCastleWet5 from "../../../images/rentals/wiimages/MarbleCastle-Wet/MarbleCastle-Wet5.jpg"
+import MarbleCastleWet6 from "../../../images/rentals/wiimages/MarbleCastle-Wet/MarbleCastle-Wet6.jpg"
+import MarbleCastleWet7 from "../../../images/rentals/wiimages/MarbleCastle-Wet/MarbleCastle-Wet7.jpg"
+import MarbleCastleWet8 from "../../../images/rentals/wiimages/MarbleCastle-Wet/MarbleCastle-Wet8.jpg"
+import MarbleCastleWet9 from "../../../images/rentals/wiimages/MarbleCastle-Wet/MarbleCastle-Wet9.jpg"
+
 
 function WIData() {
 
     const wiData = [
         {
           id: 800,
-          images: [tempCarousel1, tempCarousel2, tempCarousel3,tempCarousel4,tempCarousel5,tempCarousel6],
+          images: [MarbleCastleWet1, MarbleCastleWet2, MarbleCastleWet3,MarbleCastleWet4,MarbleCastleWet5,MarbleCastleWet6,MarbleCastleWet7,MarbleCastleWet8,MarbleCastleWet9],
           title: "MARBLE CASTLE COMBO - WET",
           price: 300
         },
         {
           id: 801,
-          images: [tempCarousel1, tempCarousel2, tempCarousel3,tempCarousel4,tempCarousel5,tempCarousel6],
+          images: [TropicalWet1, TropicalWet2, TropicalWet3,TropicalWet4],
           title: "TROPICAL COMBO - WET",
           price: 300
         },
         {
           id: 802,
-          images: [tempCarousel1, tempCarousel2, tempCarousel3,tempCarousel4,tempCarousel5,tempCarousel6],
+          images: [IceCastleWet1, tempCarousel2, tempCarousel3,tempCarousel4,tempCarousel5,tempCarousel6],
           title: "ICE CASTLE COMBO - WET",
           price: 300
         },
