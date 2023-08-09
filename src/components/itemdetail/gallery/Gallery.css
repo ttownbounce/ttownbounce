@@ -10,8 +10,9 @@
 }
 
 .gallery-big img {
-  width: 100%;
-  height: auto;
+  width: 100%; /* Allow width to adjust while maintaining aspect ratio */
+  max-height: 75vh;
+  min-height: 70vh;
   border: 2px solid var(--Color3);
   overflow: hidden;
   display: flex;
@@ -36,6 +37,31 @@
   scroll-snap-align: center; /* Center the images after scrolling */
 }
 
+
+@media screen and (max-width: 1500px) {
+  .gallery-big img {
+    max-height: 60vh;
+    min-height: 50vh;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .gallery-big img {
+    max-height: 50vh;
+    min-height: 40vh;
+  }
+}
+
 @media screen and (max-width: 960px) {
-  /* Add responsive styles if needed */
+  .gallery-big img {
+    max-height: 40vh;
+    min-height: 30vh;
+  }
+}
+
+  @media screen and (max-width: 500px) {
+    .gallery-big img {
+      max-height: 30vh;
+      min-height: 20vh;
+    }
 }

@@ -71,7 +71,6 @@
 
 
 @media screen and (max-width: 960px) {
-  /* Media query for screens smaller than 960 pixels */
 
 
   .Carousel-Container {
@@ -82,10 +81,17 @@
 
 
 @media screen and (max-width: 700px) {
-  /* Media query for screens smaller than 960 pixels */
 
 
   .Carousel-Container {
     width: 300px; /* Set the width you desire */
+  }
+}
+
+@media screen and (max-width: 300px) {
+
+
+  .Carousel-Container {
+    width: 200px; /* Set the width you desire */
   }
 }

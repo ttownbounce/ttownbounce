@@ -18,8 +18,8 @@ function Home() {
   var mostPopularData = []
 
 
-  const carouselIDS = [404,405,406,407,408]
-  const mostPopularIDS = [999,402,410]
+  const carouselIDS = [800,801,9,204,408]
+  const mostPopularIDS = [800,801,802]
 
   carouselIDS.forEach((number) => {
     const item = GetItemById(number.toString());
