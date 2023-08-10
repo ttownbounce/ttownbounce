@@ -29,20 +29,22 @@ const Gallery = ({ imageData }) => {
   return (
     <div className="gallery-display">
       <div className="gallery-item">
-        <div className="gallery-big">
-          <img src={selectedPicture} alt="item" />
+          <div className='gbp'>
+            <div className="gallery-big">
+              <img src={selectedPicture} alt="item" />
+            </div>
+          </div>
+          <div className="gallery-small" ref={gallerySmallRef}>
+            {imageData.images.map((image, imageIndex) => (
+              <GPic
+                key={imageIndex}
+                src={image}
+                isSelected={image === selectedPicture}
+                onClick={() => handlePictureClick(image)}
+              />
+            ))}
+          </div>
         </div>
-        <div className="gallery-small" ref={gallerySmallRef}>
-          {imageData.images.map((image, imageIndex) => (
-            <GPic
-              key={imageIndex}
-              src={image}
-              isSelected={image === selectedPicture}
-              onClick={() => handlePictureClick(image)}
-            />
-          ))}
-        </div>
-      </div>
     </div>
   );
 };
