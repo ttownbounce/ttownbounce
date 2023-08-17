@@ -6,7 +6,7 @@
 .gallery-item {
   padding: 10px;
   min-width: 30%;
-  max-width: 90%;
+  max-width: 80%;
 }
 
 .gallery-big{
@@ -72,8 +72,8 @@
     height: 50vh;
   }
   .gallery-small img {
-    height: 100px;
-    width: 100px;
+    height: 85px;
+    width: 85px;
   }
 }
 
@@ -86,8 +86,8 @@
     height: 60vh;
   }
   .gallery-small img {
-    height: 75px;
-    width: 75px;
+    height: 62px;
+    width: 62px;
   }
 }
 
@@ -100,8 +100,8 @@
     height: 60vh;
   }
   .gallery-small img {
-    height: 75px;
-    width: 75px;
+    height: 62px;
+    width: 62px;
   }
 }
 
@@ -114,8 +114,8 @@
     height: 60vh;
   }
   .gallery-small img {
-    height: 70px;
-    width: 70px;
+    height: 60px;
+    width: 60px;
   }
 }
 
@@ -128,7 +128,7 @@
     height: 40vh;
   }
   .gallery-small img {
-    height: 70px;
-    width: 70px;
+    height: 60px;
+    width: 60px;
   }
 }
