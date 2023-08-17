@@ -7,7 +7,7 @@ const BackgroundFade = () => {
   useEffect(() => {
     const handleScroll = () => {
       const scrolled = window.scrollY;
-      const opacity = 1 - scrolled / 500; // Adjust this value to control when the fading effect starts
+      const opacity = 1 - scrolled / 2000; // Adjust this value to control when the fading effect starts
       setScrollOpacity(opacity < 0 ? 0 : opacity); // Ensure opacity doesn't go below 0
 
       // Optionally, you can change the background color here based on the scroll position
