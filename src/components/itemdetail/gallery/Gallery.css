@@ -6,7 +6,7 @@
 .gallery-item {
   padding: 10px;
   min-width: 30%;
-  max-width: 80%;
+  max-width: 75%;
 }
 
 .gallery-big{
@@ -64,6 +64,11 @@
   }
 }
 @media screen and (max-width: 1200px) {
+
+  .gallery-item {
+    max-width: 90%;
+  }
+
   .gallery-big img {
     height: 50vh;
     width: 600px;
@@ -78,6 +83,7 @@
 }
 
 @media screen and (max-width: 700px) {
+  
   .gallery-big img {
     height: 60vh;
     width: 400px;
