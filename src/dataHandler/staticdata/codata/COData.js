@@ -37,6 +37,41 @@ import MarbleCastle8 from "../../../images/rentals/coimages/MarbleCastle/MarbleC
 import MarbleCastle9 from "../../../images/rentals/coimages/MarbleCastle/MarbleCastle9.jpg"
 
 
+import TurboRushI1 from "../../../images/rentals/coimages/TurboRushI/TurboRushI1.jpg"
+import TurboRushI2 from "../../../images/rentals/coimages/TurboRushI/TurboRushI2.jpg"
+import TurboRushI3 from "../../../images/rentals/coimages/TurboRushI/TurboRushI3.jpg"
+import TurboRushI4 from "../../../images/rentals/coimages/TurboRushI/TurboRushI4.jpg"
+
+import TurboRushII1 from "../../../images/rentals/coimages/TurboRushII/TurboRushII1.jpg"
+import TurboRushII2 from "../../../images/rentals/coimages/TurboRushII/TurboRushII2.jpg"
+import TurboRushII3 from "../../../images/rentals/coimages/TurboRushII/TurboRushII3.jpg"
+import TurboRushII4 from "../../../images/rentals/coimages/TurboRushII/TurboRushII4.jpg"
+
+import RO301 from "../../../images/rentals/coimages/RO30/RO301.jpg"
+import RO302 from "../../../images/rentals/coimages/RO30/RO302.jpg"
+import RO303 from "../../../images/rentals/coimages/RO30/RO303.jpg"
+import RO304 from "../../../images/rentals/coimages/RO30/RO304.jpg"
+import RO305 from "../../../images/rentals/coimages/RO30/RO305.jpg"
+
+import OC601 from "../../../images/rentals/coimages/OC60/OC601.jpg"
+import OC602 from "../../../images/rentals/coimages/OC60/OC602.jpg"
+import OC603 from "../../../images/rentals/coimages/OC60/OC603.jpg"
+import OC604 from "../../../images/rentals/coimages/OC60/OC604.jpg"
+
+import RC1 from "../../../images/rentals/coimages/RockClimb/RC1.jpg"
+import RC2 from "../../../images/rentals/coimages/RockClimb/RC2.jpg"
+import RC3 from "../../../images/rentals/coimages/RockClimb/RC3.jpg"
+
+import RushI1 from "../../../images/rentals/coimages/RushI/RushI1.jpg"
+
+import AR1 from "../../../images/rentals/coimages/AR/AD1.jpg"
+import AR2 from "../../../images/rentals/coimages/AR/AD2.jpg"
+
+
+
+
+
+
 function COData() {
 
     const coData = [
@@ -54,13 +89,13 @@ function COData() {
         },
         {
           id: 202,
-          images: [IceCastle1, tempCarousel2, tempCarousel3,tempCarousel4,tempCarousel5,tempCarousel6],
+          images: [IceCastle1],
           title: "ICE CASTLE COMBO",
           price: 250
         },
         {
           id: 203,
-          images: [Backyard1, tempCarousel2, tempCarousel3,tempCarousel4,tempCarousel5,tempCarousel6],
+          images: [Backyard1],
           title: "BACKYARD COMBO",
           price: 250
         },
@@ -72,37 +107,37 @@ function COData() {
         },
         {
           id: 205,
-          images: [UnderTheSea1, tempCarousel2, tempCarousel3,tempCarousel4,tempCarousel5,tempCarousel6],
+          images: [UnderTheSea1],
           title: "UNDER THE SEA",
           price: 200
         },
         {
           id: 206,
-          images: [tempCarousel1, tempCarousel2, tempCarousel3,tempCarousel4,tempCarousel5,tempCarousel6],
+          images: [TurboRushI1, TurboRushI2, TurboRushI3, TurboRushI4],
           title: "TURBO RUSH I (single)",
           price: 250
         },
         {
           id: 207,
-          images: [tempCarousel1, tempCarousel2, tempCarousel3,tempCarousel4,tempCarousel5,tempCarousel6],
+          images: [TurboRushII1, TurboRushII2, TurboRushII3, TurboRushII4],
           title: "TURBO RUSH II (dual)",
           price: 500
         },
         {
           id: 208,
-          images: [tempCarousel1, tempCarousel2, tempCarousel3,tempCarousel4,tempCarousel5,tempCarousel6],
+          images: [RO301, RO302, RO303,RO304,RO305],
           title: "30' RAINBOW OBSTACLE (dual)",
           price: 250
         },
         {
           id: 209,
-          images: [tempCarousel1, tempCarousel2, tempCarousel3,tempCarousel4,tempCarousel5,tempCarousel6],
+          images: [OC601, OC602, OC603,OC604],
           title: "60' OBSTACLE COURSE W/ SLIDE (dual lane)",
           price: 500
         },
         {
           id: 210,
-          images: [tempCarousel1, tempCarousel2, tempCarousel3,tempCarousel4,tempCarousel5,tempCarousel6],
+          images: [RushI1],
           title: "40' RUSH I (single)",
           price: 250
         },
@@ -114,10 +149,16 @@ function COData() {
         },
         {
           id: 212,
-          images: [tempCarousel1, tempCarousel2, tempCarousel3,tempCarousel4,tempCarousel5,tempCarousel6],
+          images: [RC1, RC2, RC3],
+          title: "ROCK CLIMB SLIDE (dual lane)",
+          price: 350
+        },
+        {
+          id: 213,
+          images: [AR1, AR2],
           title: "ADRENALINE RUSH (dual)",
           price: 700
-        }
+        },
       ];
 
       return coData;
