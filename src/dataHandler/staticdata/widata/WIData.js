@@ -23,6 +23,16 @@ import MarbleCastleWet8 from "../../../images/rentals/wiimages/MarbleCastle-Wet/
 import MarbleCastleWet9 from "../../../images/rentals/wiimages/MarbleCastle-Wet/MarbleCastle-Wet9.jpg"
 
 
+import BWW1 from "../../../images/rentals/wiimages/BlueWave-Wet/BWW1.jpg"
+import BWW2 from "../../../images/rentals/wiimages/BlueWave-Wet/BWW2.jpg"
+import BWW3 from "../../../images/rentals/wiimages/BlueWave-Wet/BWW3.jpg"
+import BWSSW1 from "../../../images/rentals/wiimages/BlueWaveSlipSlide-Wet/BWSS-Wet1.jpg"
+import BWSSW2 from "../../../images/rentals/wiimages/BlueWaveSlipSlide-Wet/BWSS-Wet2.jpg"
+import BWSSW3 from "../../../images/rentals/wiimages/BlueWaveSlipSlide-Wet/BWSS-Wet3.jpg"
+import BWSSOW1 from "../../../images/rentals/wiimages/BlueWaveSlipSlideOnly-Wet/BWSSO-Wet1.jpg"
+
+
+
 function WIData() {
 
     const wiData = [
@@ -100,19 +110,19 @@ function WIData() {
         },
         {
           id: 812,
-          images: [tempCarousel1, tempCarousel2, tempCarousel3,tempCarousel4,tempCarousel5,tempCarousel6],
+          images: [BWSSOW1],
           title: "BLUE WAVE SLIP N SLIDE",
           price: 200
         },
         {
           id: 813,
-          images: [tempCarousel1, tempCarousel2, tempCarousel3,tempCarousel4,tempCarousel5,tempCarousel6],
+          images: [BWW1, BWW2, BWW3],
           title: "20' BLUE WAVE SLIDE (single)",
           price: 350
         },
         {
           id: 814,
-          images: [tempCarousel1, tempCarousel2, tempCarousel3,tempCarousel4,tempCarousel5,tempCarousel6],
+          images: [BWSSW1, BWSSW2, BWSSW3],
           title: "20' BLUE WAVE SLIDE + SLIP N SLIDE",
           price: 500
         },
