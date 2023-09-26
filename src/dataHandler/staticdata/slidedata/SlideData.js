@@ -17,7 +17,7 @@ import MS2 from "../../../images/rentals/dsimages/MulticolorSlide/MS2.jpg"
 
 import YC1 from "../../../images/rentals/dsimages/YellowCrush/YC1.jpg"
 
-import GC1 from "../../../images/rentals/dsimages/GreenCrush/GC1.jpg"
+import GC1 from "../../../images/rentals/dsimages/GreenCrush/"
 import GC2 from "../../../images/rentals/dsimages/GreenCrush/GC2.jpg"
 import GC3 from "../../../images/rentals/dsimages/GreenCrush/GC3.jpg"
 
