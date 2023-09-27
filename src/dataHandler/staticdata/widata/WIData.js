@@ -31,6 +31,34 @@ import BWSSW2 from "../../../images/rentals/wiimages/BlueWaveSlipSlide-Wet/BWSS-
 import BWSSW3 from "../../../images/rentals/wiimages/BlueWaveSlipSlide-Wet/BWSS-Wet3.jpg"
 import BWSSOW1 from "../../../images/rentals/wiimages/BlueWaveSlipSlideOnly-Wet/BWSSO-Wet1.jpg"
 
+import GCW1 from "../../../images/rentals/wiimages/GreenCrush-Wet/GC-Wet1.jpg"
+
+import FW1 from "../../../images/rentals/wiimages/Fiesta-Wet/F-Wet1.jpg"
+import FW2 from "../../../images/rentals/wiimages/Fiesta-Wet/F-Wet2.jpg"
+import FW3 from "../../../images/rentals/wiimages/Fiesta-Wet/F-Wet3.jpg"
+import FW4 from "../../../images/rentals/wiimages/Fiesta-Wet/F-Wet4.jpg"
+import FW5 from "../../../images/rentals/wiimages/Fiesta-Wet/F-Wet5.jpg"
+import FW6 from "../../../images/rentals/wiimages/Fiesta-Wet/F-Wet6.jpg"
+
+import DSSW1 from "../../../images/rentals/wiimages/DualSlipSlide-Wet/DSS-Wet1.jpg"
+import DSSW2 from "../../../images/rentals/wiimages/DualSlipSlide-Wet/DSS-Wet2.jpg"
+import DSSW3 from "../../../images/rentals/wiimages/DualSlipSlide-Wet/DSS-Wet3.jpg"
+import DSSW4 from "../../../images/rentals/wiimages/DualSlipSlide-Wet/DSS-Wet4.jpg"
+
+import TDW1 from "../../../images/rentals/wiimages/TropicalDual-Wet/TD-Wet1.jpg"
+import TDW2 from "../../../images/rentals/wiimages/TropicalDual-Wet/TD-Wet2.jpg"
+import TDW3 from "../../../images/rentals/wiimages/TropicalDual-Wet/TD-Wet3.jpg"
+
+import BSSOW1 from "../../../images/rentals/wiimages/BermudaSlipSlideOnly-Wet/BSSO-Wet1.jpg"
+
+import TSSOW1 from "../../../images/rentals/wiimages/TropicalSlipSlideOnly-Wet/TSSO-Wet1.jpg"
+
+import TPW1 from "../../../images/rentals/wiimages/TropicalParadise-Wet/TP-Wet1.jpg"
+import TPW2 from "../../../images/rentals/wiimages/TropicalParadise-Wet/TP-Wet2.jpg"
+
+
+
+
 
 
 function WIData() {
@@ -62,87 +90,99 @@ function WIData() {
         },
         {
           id: 804,
-          images: [tempCarousel1, tempCarousel2, tempCarousel3,tempCarousel4,tempCarousel5,tempCarousel6],
+          images: [GCW1],
           title: "18' GREEN CRUSH SLIDE (single)",
           price: 300
         },
         {
           id: 805,
+          images: [FW1,FW2,FW3,FW4,FW5,FW6],
+          title: "18' FIESTA SLIDE",
+          price: 300
+        },
+        {
+          id: 806,
           images: [tempCarousel1, tempCarousel2, tempCarousel3,tempCarousel4,tempCarousel5,tempCarousel6],
           title: "18' BLUE TSUNAMI (dual)",
           price: 350
         },
         {
-          id: 806,
+          id: 807,
           images: [tempCarousel1, tempCarousel2, tempCarousel3,tempCarousel4,tempCarousel5,tempCarousel6],
           title: "18' TROPICAL (single)",
           price: 300
         },
         {
-          id: 807,
-          images: [tempCarousel1, tempCarousel2, tempCarousel3,tempCarousel4,tempCarousel5,tempCarousel6],
+          id: 808,
+          images: [TDW1,TDW2,TDW3],
           title: "18' TROPICAL (dual)",
           price: 350
         },
         {
-          id: 808,
-          images: [tempCarousel1, tempCarousel2, tempCarousel3,tempCarousel4,tempCarousel5,tempCarousel6],
+          id: 809,
+          images: [TSSOW1],
           title: "TROPICAL SLIP N SLIDE (single)",
           price: 200
         },
         {
-          id: 809,
+          id: 810,
           images: [tempCarousel1, tempCarousel2, tempCarousel3,tempCarousel4,tempCarousel5,tempCarousel6],
           title: "20' TROPICAL SLIDE (single)",
           price: 350
         },
         {
-          id: 810,
+          id: 811,
           images: [tempCarousel1, tempCarousel2, tempCarousel3,tempCarousel4,tempCarousel5,tempCarousel6],
           title: "20' TROPICAL SLIDE + SLIP N SLIDE (single)",
           price: 500
         },
         {
-          id: 811,
-          images: [tempCarousel1, tempCarousel2, tempCarousel3,tempCarousel4,tempCarousel5,tempCarousel6],
+          id: 812,
+          images: [TPW1, TPW2],
           title: "20' TROPICAL PARADISE SLIDE (single)",
           price: 350
         },
         {
-          id: 812,
+          id: 813,
           images: [BWSSOW1],
           title: "BLUE WAVE SLIP N SLIDE",
           price: 200
         },
         {
-          id: 813,
+          id: 814,
           images: [BWW1, BWW2, BWW3],
           title: "20' BLUE WAVE SLIDE (single)",
           price: 350
         },
         {
-          id: 814,
+          id: 815,
           images: [BWSSW1, BWSSW2, BWSSW3],
           title: "20' BLUE WAVE SLIDE + SLIP N SLIDE",
           price: 500
         },
         {
-          id: 815,
-          images: [tempCarousel1, tempCarousel2, tempCarousel3,tempCarousel4,tempCarousel5,tempCarousel6],
+          id: 816,
+          images: [BSSOW1],
           title: "BERMUDA BLAST SLIP N SLIDE (dual)",
           price: 250
         },
         {
-          id: 816,
+          id: 817,
           images: [tempCarousel1, tempCarousel2, tempCarousel3,tempCarousel4,tempCarousel5,tempCarousel6],
           title: "27' BERMUDA BLAST SLIDE (dual)",
           price: 600
         },
         {
-          id: 817,
+          id: 818,
           images: [tempCarousel1, tempCarousel2, tempCarousel3,tempCarousel4,tempCarousel5,tempCarousel6],
           title: "27' BERMUDA BLAST SLIDE + SLIP N SLIDE (dual)",
           price: 750
+        },
+        {
+          id: 819,
+          images: [DSSW1,DSSW2,DSSW3,DSSW4],
+          title: "DUAL SLIP N SLIDE",
+          price: 200
         },
         {
           id: 999,
