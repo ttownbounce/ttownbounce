@@ -18,11 +18,11 @@ import CGKD1 from "../../../images/rentals/isimages/CarnivalGames/CGKD1.jpg"
 import DiscountGroup1 from "../../../images/rentals/isimages/CarnivalGames/DIscountGroup1.jpg"
 import DiscountGroup2 from "../../../images/rentals/isimages/CarnivalGames/DIscountGroup2.jpg"
 
-import BB1 from "../../../images/rentals/isimages/BuzzerBeater/BB1.jpg"
-import BB2 from "../../../images/rentals/isimages/BuzzerBeater/BB2.jpg"
-import BB3 from "../../../images/rentals/isimages/BuzzerBeater/BB3.jpg"
-import BB4 from "../../../images/rentals/isimages/BuzzerBeater/BB4.jpg"
-import BB5 from "../../../images/rentals/isimages/BuzzerBeater/BB5.jpg"
+import BUZB1 from "../../../images/rentals/isimages/BuzzerBeater/BB1.jpg"
+import BUZB2 from "../../../images/rentals/isimages/BuzzerBeater/BB2.jpg"
+import BUZB3 from "../../../images/rentals/isimages/BuzzerBeater/BB3.jpg"
+import BUZB4 from "../../../images/rentals/isimages/BuzzerBeater/BB4.jpg"
+import BUZB5 from "../../../images/rentals/isimages/BuzzerBeater/BB5.jpg"
 
 import BBC1 from "../../../images/rentals/isimages/BungeeBasketball/BBC1.jpg"
 
@@ -86,7 +86,7 @@ function ISData() {
         },
         {
           id: 408,
-          images: [BB1, BB2, BB3,BB4,BB5],
+          images: [BUZB1, BUZB2, BUZB3,BUZB4,BUZB5],
           title: "BUZZER BEATER",
           price: 250
         },
