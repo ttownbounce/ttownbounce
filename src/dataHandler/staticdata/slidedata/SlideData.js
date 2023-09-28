@@ -34,6 +34,11 @@ import TP2 from "../../../images/rentals/dsimages/TropicalParadise/TP2.jpg"
 import BW1 from "../../../images/rentals/dsimages/BlueWave/BW1.jpg"
 import BW2 from "../../../images/rentals/dsimages/BlueWave/BW2.jpg"
 
+import TD1 from "../../../images/rentals/dsimages/TropicalDual/TD1.jpg"
+import TD2 from "../../../images/rentals/dsimages/TropicalDual/TD2.jpg"
+import TD3 from "../../../images/rentals/dsimages/TropicalDual/TD3.jpg"
+
+
 
 function SlideData() {
 
@@ -69,27 +74,9 @@ function SlideData() {
           price: 250
         },
         {
-          id: 605,
-          images: [tempCarousel1, tempCarousel2, tempCarousel3,tempCarousel4,tempCarousel5,tempCarousel6],
-          title: "18' BLUE TSUNAMI (dual)",
-          price: 300
-        },
-        {
-          id: 606,
-          images: [tempCarousel1, tempCarousel2, tempCarousel3,tempCarousel4,tempCarousel5,tempCarousel6],
-          title: "18' TROPICAL (single)",
-          price: 250
-        },
-        {
           id: 607,
-          images: [tempCarousel1, tempCarousel2, tempCarousel3,tempCarousel4,tempCarousel5,tempCarousel6],
+          images: [TD1, TD2, TD3],
           title: "18' TROPICAL (dual)",
-          price: 300
-        },
-        {
-          id: 608,
-          images: [tempCarousel1, tempCarousel2, tempCarousel3,tempCarousel4,tempCarousel5,tempCarousel6],
-          title: "20' TROPICAL SLIDE (single)",
           price: 300
         },
         {

@@ -67,6 +67,8 @@ import RushI1 from "../../../images/rentals/coimages/RushI/RushI1.jpg"
 import AR1 from "../../../images/rentals/coimages/AR/AD1.jpg"
 import AR2 from "../../../images/rentals/coimages/AR/AD2.jpg"
 
+import RD40 from "../../../images/rentals/coimages/RushDual/RD40.jpg"
+
 
 
 
@@ -143,7 +145,7 @@ function COData() {
         },
         {
           id: 211,
-          images: [tempCarousel1, tempCarousel2, tempCarousel3,tempCarousel4,tempCarousel5,tempCarousel6],
+          images: [RD40],
           title: "40' RUSH II (dual)",
           price: 500
         },

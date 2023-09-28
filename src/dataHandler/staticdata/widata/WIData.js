@@ -56,6 +56,11 @@ import TSSOW1 from "../../../images/rentals/wiimages/TropicalSlipSlideOnly-Wet/T
 import TPW1 from "../../../images/rentals/wiimages/TropicalParadise-Wet/TP-Wet1.jpg"
 import TPW2 from "../../../images/rentals/wiimages/TropicalParadise-Wet/TP-Wet2.jpg"
 
+import YCW1 from "../../../images/rentals/wiimages/YellowCrush-Wet/YC-Wet1.jpg"
+
+import DT1 from "../../../images/rentals/wiimages/DunkTank/DT1.jpg"
+import DT2 from "../../../images/rentals/wiimages/DunkTank/DT2.jpg"
+
 
 
 
@@ -78,13 +83,13 @@ function WIData() {
         },
         {
           id: 802,
-          images: [IceCastleWet1, tempCarousel2, tempCarousel3,tempCarousel4,tempCarousel5,tempCarousel6],
+          images: [IceCastleWet1],
           title: "ICE CASTLE COMBO - WET",
           price: 300
         },
         {
           id: 803,
-          images: [tempCarousel1, tempCarousel2, tempCarousel3,tempCarousel4,tempCarousel5,tempCarousel6],
+          images: [YCW1],
           title: "18' YELLOW CRUSH SLIDE (single)",
           price: 300
         },
@@ -101,18 +106,6 @@ function WIData() {
           price: 300
         },
         {
-          id: 806,
-          images: [tempCarousel1, tempCarousel2, tempCarousel3,tempCarousel4,tempCarousel5,tempCarousel6],
-          title: "18' BLUE TSUNAMI (dual)",
-          price: 350
-        },
-        {
-          id: 807,
-          images: [tempCarousel1, tempCarousel2, tempCarousel3,tempCarousel4,tempCarousel5,tempCarousel6],
-          title: "18' TROPICAL (single)",
-          price: 300
-        },
-        {
           id: 808,
           images: [TDW1,TDW2,TDW3],
           title: "18' TROPICAL (dual)",
@@ -123,18 +116,6 @@ function WIData() {
           images: [TSSOW1],
           title: "TROPICAL SLIP N SLIDE (single)",
           price: 200
-        },
-        {
-          id: 810,
-          images: [tempCarousel1, tempCarousel2, tempCarousel3,tempCarousel4,tempCarousel5,tempCarousel6],
-          title: "20' TROPICAL SLIDE (single)",
-          price: 350
-        },
-        {
-          id: 811,
-          images: [tempCarousel1, tempCarousel2, tempCarousel3,tempCarousel4,tempCarousel5,tempCarousel6],
-          title: "20' TROPICAL SLIDE + SLIP N SLIDE (single)",
-          price: 500
         },
         {
           id: 812,
@@ -167,18 +148,6 @@ function WIData() {
           price: 250
         },
         {
-          id: 817,
-          images: [tempCarousel1, tempCarousel2, tempCarousel3,tempCarousel4,tempCarousel5,tempCarousel6],
-          title: "27' BERMUDA BLAST SLIDE (dual)",
-          price: 600
-        },
-        {
-          id: 818,
-          images: [tempCarousel1, tempCarousel2, tempCarousel3,tempCarousel4,tempCarousel5,tempCarousel6],
-          title: "27' BERMUDA BLAST SLIDE + SLIP N SLIDE (dual)",
-          price: 750
-        },
-        {
           id: 819,
           images: [DSSW1,DSSW2,DSSW3,DSSW4],
           title: "DUAL SLIP N SLIDE",
@@ -186,7 +155,7 @@ function WIData() {
         },
         {
           id: 999,
-          images: [tempCarousel1, tempCarousel2, tempCarousel3,tempCarousel4,tempCarousel5,tempCarousel6],
+          images: [DT1, DT2],
           title: "DUNK TANK",
           price: 250
         },
