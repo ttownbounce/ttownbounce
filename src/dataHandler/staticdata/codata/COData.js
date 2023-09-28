@@ -1,9 +1,9 @@
-import tempCarousel1 from "../../../images/tempcarousel/image1.png";
-import tempCarousel2 from "../../../images/tempcarousel/image2.png";
-import tempCarousel3 from "../../../images/tempcarousel/image3.png";
-import tempCarousel4 from "../../../images/tempcarousel/image4.png";
-import tempCarousel5 from "../../../images/tempcarousel/image5.png";
-import tempCarousel6 from "../../../images/tempcarousel/image6.png";
+// import tempCarousel1 from "../../../images/tempcarousel/image1.png";
+// import tempCarousel2 from "../../../images/tempcarousel/image2.png";
+// import tempCarousel3 from "../../../images/tempcarousel/image3.png";
+// import tempCarousel4 from "../../../images/tempcarousel/image4.png";
+// import tempCarousel5 from "../../../images/tempcarousel/image5.png";
+// import tempCarousel6 from "../../../images/tempcarousel/image6.png";
 
 import IceCastle1 from "../../../images/rentals/coimages/IceCastle/IceCastle1.jpg"
 
