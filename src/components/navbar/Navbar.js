@@ -38,28 +38,28 @@ function Navbar() {
 
 
           <li className="nav-item">
-            <NavLink to="/Bouncers" className="nav-links" onClick={handleClick}>
+            <NavLink to="/bouncers" className="nav-links" onClick={handleClick}>
             Bouncers
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/CO" className="nav-links" onClick={handleClick}>
+            <NavLink to="/combo-obstacle" className="nav-links" onClick={handleClick}>
             Combo/Obstacle
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/IS" className="nav-links" onClick={handleClick}>
+            <NavLink to="/interactive-sports" className="nav-links" onClick={handleClick}>
             Interactive/Sports
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/DrySlides" className="nav-links" onClick={handleClick}>
+            <NavLink to="/dry-slides" className="nav-links" onClick={handleClick}>
             Dry Slides
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/WaterInflatables" className="nav-links" onClick={handleClick}>
-            Water Infaltables
+            <NavLink to="/water-inflatables" className="nav-links" onClick={handleClick}>
+            Water Inflatables
             </NavLink>
           </li>
 
@@ -67,7 +67,7 @@ function Navbar() {
 
 
           <li className="nav-item">
-            <NavLink to="/Contact" className="nav-links" onClick={handleClick}>
+            <NavLink to="/contact-us" className="nav-links" onClick={handleClick}>
             Contact Us
             </NavLink>
           </li>

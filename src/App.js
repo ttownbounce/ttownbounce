@@ -37,12 +37,12 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/Bouncers" element={<Bouncers />} />
-          <Route path="/CO" element={<CO />} />
-          <Route path="/IS" element={<IS />} />
-          <Route path="/DrySlides" element={<DrySlides />} />
-          <Route path="/WaterInflatables" element={<WaterInflatables />} />
-          <Route path="/Contact" element={<ContactUs />} />
+          <Route path="/bouncers" element={<Bouncers />} />
+          <Route path="/combo-obstacle" element={<CO />} />
+          <Route path="/interactive-sports" element={<IS />} />
+          <Route path="/dry-slides" element={<DrySlides />} />
+          <Route path="/water-inflatables" element={<WaterInflatables />} />
+          <Route path="/contact-us" element={<ContactUs />} />
 
           <Route path="/Item/:id" element={<ItemDetail />} />
           
