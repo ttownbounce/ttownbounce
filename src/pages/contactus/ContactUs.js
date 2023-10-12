@@ -13,10 +13,12 @@ function HomePage() {
   const destinationEmail = 'TTownBounce1@gmail.com';
 
   const handleEmailClick = () => {
-    const mailtoLink = `mailto:${destinationEmail}`;
-    
-    // Open the email client with the pre-loaded recipient address
-    window.location.href = mailtoLink;
+  const subject = 'Requesting a Quote';
+  const message = 'I would like to request a quote:\n\nName:\nPhone Number:\nRentals:\nDates:';
+  const mailtoLink = `mailto:${destinationEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(message)}`;
+  
+  // Open the email client with the pre-loaded recipient address, subject, and message
+  window.location.href = mailtoLink;
   };
 
   const handleCallButtonClick = () => {
