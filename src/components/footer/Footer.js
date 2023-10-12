@@ -40,7 +40,7 @@ const TTBFooter = () => (
               </li>
 
               <li>
-                <NavLink to="/Contact" className="bluefortext">
+                <NavLink to="/contact-us" className="bluefortext">
                   Contact Us
                 </NavLink>
               </li>
@@ -55,27 +55,27 @@ const TTBFooter = () => (
             </h5>
             <ul className="list-unstyled linksFontSize">
               <li>
-                <NavLink to="/Bouncers" className="bluefortext">
+                <NavLink to="/bouncers" className="bluefortext">
                   Bouncers
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/CO" className="bluefortext">
+                <NavLink to="/combo-obstacle" className="bluefortext">
                   Combo/Obstacle
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/IS" className="bluefortext">
+                <NavLink to="/interactive-sports" className="bluefortext">
                   Interactive/Sports
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/DrySlides" className="bluefortext">
+                <NavLink to="/dry-slides" className="bluefortext">
                   Dry Slides
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/WaterInflatables" className="bluefortext">
+                <NavLink to="/water-inflatables" className="bluefortext">
                   Water Inflatables
                 </NavLink>
               </li>

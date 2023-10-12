@@ -12,7 +12,7 @@ function HomePage() {
       </div>
       <div className="cubodyContainer">
         <h1 className="cuheaderText cububbleWhite">Contact Us By Email</h1>
-        <h1 className="infoText cububbleWhite">TTownBounce@gmail.com</h1>
+        <h1 className="infoText cububbleWhite">TTownBounce1@gmail.com</h1>
       </div>
       <BackgroundFade />
     </div>

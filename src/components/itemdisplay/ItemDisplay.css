@@ -14,6 +14,7 @@
     padding-bottom: 55px;
     width: 450px;
   }
+  
 
 
 .card-image img{
@@ -28,6 +29,9 @@
 
     padding: 20px;
     object-fit: contain;
+}
+.card-image:hover {
+  cursor: pointer;
 }
 
 .card-caption {
@@ -45,6 +49,9 @@
     padding: 10px; /* Add some padding to the caption for better aesthetics */
 
 }
+.card-caption:hover {
+  cursor: pointer;
+}
 
 .card-title{
   font-weight: bold;
@@ -52,12 +59,12 @@
 
 }
 .card-price{
-  font-size: 1.5rem;
+  font-size: 2rem;
 
 }
 .card-clickme{
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 1.5rem;
   
 }
 

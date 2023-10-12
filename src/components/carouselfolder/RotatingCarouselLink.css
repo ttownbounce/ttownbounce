@@ -43,6 +43,10 @@
   object-fit: contain;
 }
 
+.Carousel-Image:hover {
+  cursor: pointer;
+}
+
 .Carousel-Caption {
   font-family: "FaseBulan", sans-serif;
   display: flex;
@@ -58,16 +62,16 @@
 
 .Carousel-title{
   font-weight: bold;
-  font-size: 2.5rem;
+  font-size: 3rem;
 
 }
 .Carousel-price{
-  font-size: 1.5rem;
+  font-size: 2rem;
 
 }
 .Carousel-clickme{
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 1.5rem;
   
 }
 
@@ -89,16 +93,16 @@
     width: 300px; /* Set the width you desire */
   }
   .Carousel-title{
-    font-size: 1rem;
+    font-size: 1.5rem;
   
   }
   .Carousel-price{
-    font-size: 1rem;
+    font-size: 1.25rem;
   
   }
   .Carousel-clickme{
     font-weight: bold;
-    font-size: .75rem;
+    font-size: 1rem;
     
   }
 }
@@ -110,16 +114,16 @@
     width: 200px; /* Set the width you desire */
   }
   .Carousel-title{
-    font-size: 1rem;
+    font-size: 1.25rem;
   
   }
   .Carousel-price{
-    font-size: .75rem;
+    font-size: 1rem;
   
   }
   .Carousel-clickme{
     font-weight: bold;
-    font-size: .5rem;
+    font-size: .75rem;
     
   }
 }

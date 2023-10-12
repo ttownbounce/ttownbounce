@@ -38,6 +38,9 @@
   background-color: var(--Color3);
   border: 2px solid var(--Color3);
 }
+.gallery-small:hover {
+  cursor: pointer;
+}
 
 .gallery-small img {
   flex: 0 0 auto;
