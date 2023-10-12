@@ -19,6 +19,15 @@
     word-wrap: break-word; /* Allow the text to wrap within the bubble */
     color: var(--Color3);
   }
+
+  .rounded-button {
+    border-radius: 600px; /* Adjust the value to control the roundness of the border */
+    padding: 0px; /* Add padding to make the button larger if needed */
+  }
+  .rounded-button img{
+    height: 125px;
+    width: 125px;
+  }
   
   
   
@@ -97,6 +106,10 @@
 
 
         font-family: "FaseBulan", sans-serif;
+      }
+      .rounded-button img{
+        height: 80px;
+        width: 80px;
       }
   }
   
