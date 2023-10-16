@@ -61,6 +61,8 @@ import YCW1 from "../../../images/rentals/wiimages/YellowCrush-Wet/YC-Wet1.jpg"
 import DT1 from "../../../images/rentals/wiimages/DunkTank/DT1.jpg"
 import DT2 from "../../../images/rentals/wiimages/DunkTank/DT2.jpg"
 
+import BBW1 from "../../../images/rentals/wiimages/BermudaBlast-Wet/BB1-Wet.jpg"
+import BBW2 from "../../../images/rentals/wiimages/BermudaBlast-Wet/BB2-Wet.jpg"
 
 
 
@@ -152,6 +154,12 @@ function WIData() {
           images: [DSSW1,DSSW2,DSSW3,DSSW4],
           title: "DUAL SLIP N SLIDE",
           price: 200
+        },
+        {
+          id: 820,
+          images: [BBW1, BBW2],
+          title: "27' BERMUDA BLAST DUAL LANE SLIDE + SLIP N SLIDE - WET",
+          price: 1250
         },
         {
           id: 999,
