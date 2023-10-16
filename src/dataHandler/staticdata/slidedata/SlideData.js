@@ -38,6 +38,10 @@ import TD1 from "../../../images/rentals/dsimages/TropicalDual/TD1.jpg"
 import TD2 from "../../../images/rentals/dsimages/TropicalDual/TD2.jpg"
 import TD3 from "../../../images/rentals/dsimages/TropicalDual/TD3.jpg"
 
+import BB1 from "../../../images/rentals/dsimages/BermudaBlast/BB1.jpg"
+import BB2 from "../../../images/rentals/dsimages/BermudaBlast/BB2.jpg"
+
+
 
 
 function SlideData() {
@@ -90,6 +94,12 @@ function SlideData() {
           images: [BW1, BW2],
           title: "20' BLUE WAVE SLIDE (single)",
           price: 300
+        },
+        {
+          id: 611,
+          images: [BB1, BB2],
+          title: "27' BERMUDA BLAST DUAL LANE SLIDE + SLIP N SLIDE",
+          price: 1100
         }
       ];
 
