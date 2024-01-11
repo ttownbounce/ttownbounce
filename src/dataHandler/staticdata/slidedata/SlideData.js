@@ -98,8 +98,8 @@ function SlideData() {
         {
           id: 611,
           images: [BB1, BB2],
-          title: "27' BERMUDA BLAST DUAL LANE SLIDE + SLIP N SLIDE",
-          price: 1250
+          title: "27' BERMUDA BLAST DUAL LANE SLIDE",
+          price: 400
         }
       ];
 
