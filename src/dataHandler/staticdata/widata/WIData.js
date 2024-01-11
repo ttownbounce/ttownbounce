@@ -159,7 +159,7 @@ function WIData() {
           id: 820,
           images: [BBW1, BBW2],
           title: "27' BERMUDA BLAST DUAL LANE SLIDE + SLIP N SLIDE - WET",
-          price: 1500
+          price: 750
         },
         {
           id: 999,
