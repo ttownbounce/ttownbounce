@@ -64,10 +64,6 @@ import DT2 from "../../../images/rentals/wiimages/DunkTank/DT2.jpg"
 import BBW1 from "../../../images/rentals/wiimages/BermudaBlast-Wet/BB1-Wet.jpg"
 import BBW2 from "../../../images/rentals/wiimages/BermudaBlast-Wet/BB2-Wet.jpg"
 
-import Temp from "../../../images/rentals/wiimages/temp/temp.jpg"
-
-import Slide1 from "../../../images/rentals/wiimages/Slide/Slide1.jpg"
-
 
 
 
