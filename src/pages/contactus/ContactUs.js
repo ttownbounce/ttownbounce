@@ -14,7 +14,7 @@ function HomePage() {
 
   const handleEmailClick = () => {
   const subject = 'Requesting a Quote';
-  const message = 'I would like to request a quote:\n\nName:\nPhone Number:\nRentals:\nDates:\nAddress';
+  const message = 'I would like to request a quote:\n\nName:\nPhone Number:\nRentals:\nDates:\nAddress:';
   const mailtoLink = `mailto:${destinationEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(message)}`;
   
   // Open the email client with the pre-loaded recipient address, subject, and message
