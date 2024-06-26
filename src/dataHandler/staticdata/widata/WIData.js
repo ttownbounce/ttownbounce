@@ -66,6 +66,8 @@ import BBW2 from "../../../images/rentals/wiimages/BermudaBlast-Wet/BB2-Wet.jpg"
 
 import Temp from "../../../images/rentals/wiimages/temp/temp.jpg"
 
+import Slide1 from "../../../images/rentals/wiimages/Slide/Slide1.jpg"
+
 
 
 
@@ -169,6 +171,12 @@ function WIData() {
           images: [Temp],
           title: "Temp - WET",
           price: 750
+        },
+        {
+          id: 822,
+          images: [Slide1],
+          title: "Slide - WET",
+          price: 75
         },
         {
           id: 999,
