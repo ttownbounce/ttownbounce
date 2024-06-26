@@ -158,25 +158,13 @@ function WIData() {
           id: 819,
           images: [DSSW1,DSSW2,DSSW3,DSSW4],
           title: "DUAL SLIP N SLIDE",
-          price: 500
+          price: 200
         },
         {
           id: 820,
           images: [BBW1, BBW2],
           title: "27' BERMUDA BLAST DUAL LANE SLIDE + SLIP N SLIDE - WET",
           price: 750
-        },
-        {
-          id: 821,
-          images: [Temp],
-          title: "Temp - WET",
-          price: 750
-        },
-        {
-          id: 822,
-          images: [Slide1],
-          title: "Slide - WET",
-          price: 75
         },
         {
           id: 999,

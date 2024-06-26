@@ -17,13 +17,13 @@ function BouncerData() {
           id: 1,
           images: [MPB1],
           title: "MICKEY PARK BOUNCER",
-          price: 160
+          price: 165
         },
         {
           id: 2,
           images: [CCB1],
           title: "COLORFUL CASTLE BOUNCER",
-          price: 200
+          price: 175
         },
         {
           id: 3,
