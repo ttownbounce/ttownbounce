@@ -17,7 +17,7 @@ function BouncerData() {
           id: 1,
           images: [MPB1],
           title: "MICKEY PARK BOUNCER",
-          price: 160
+          price: 161
         },
         {
           id: 2,
