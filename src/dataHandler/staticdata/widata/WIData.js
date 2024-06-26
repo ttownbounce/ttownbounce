@@ -64,6 +64,9 @@ import DT2 from "../../../images/rentals/wiimages/DunkTank/DT2.jpg"
 import BBW1 from "../../../images/rentals/wiimages/BermudaBlast-Wet/BB1-Wet.jpg"
 import BBW2 from "../../../images/rentals/wiimages/BermudaBlast-Wet/BB2-Wet.jpg"
 
+import Temp from "../../../images/rentals/wiimages/temp/temp.jpg"
+
+
 
 
 
@@ -159,6 +162,12 @@ function WIData() {
           id: 820,
           images: [BBW1, BBW2],
           title: "27' BERMUDA BLAST DUAL LANE SLIDE + SLIP N SLIDE - WET",
+          price: 750
+        },
+        {
+          id: 821,
+          images: [Temp],
+          title: "Temp - WET",
           price: 750
         },
         {
