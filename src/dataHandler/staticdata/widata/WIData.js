@@ -156,7 +156,7 @@ function WIData() {
           id: 819,
           images: [DSSW1,DSSW2,DSSW3,DSSW4],
           title: "DUAL SLIP N SLIDE",
-          price: 200
+          price: 500
         },
         {
           id: 820,
